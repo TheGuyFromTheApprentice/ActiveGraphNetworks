@@ -65,6 +65,7 @@ The AGNN architecture is designed to handle complex, structured data relationshi
 - **Functions**:
   - Frontend: User-friendly interface for visualization and exploration.
   - API: RESTful API for programmatic access to AGNN features.
+
 ### **4. Data Flow**
 
 Here’s a visual representation of the AGNN data flow:
@@ -77,18 +78,17 @@ flowchart TD
     D --> E[Model Training & Execution Module]
     E --> F[Inference and Queries]
     F --> G[User Interface & API Module]
-    E --> F
 ```
 
 This diagram illustrates the sequential flow of data through the AGNN system, highlighting how each module interacts with the next to transform raw data into meaningful insights.
 
 ### **5. Graph Database Structure**
 
-The AGNN graph database stores data in a structured format using nodes and edges. Below is a Mermaid diagram showing the database structure:
+The AGNN graph database stores data in a structured format using nodes and edges. Below is a diagram showing the database structure:
 
 ```mermaid
 graph TB
-    subgraph Graph Database
+    subgraph Graph_Database
         node1[Document Node]
         node2[Timestamp Node]
         node3[Attribute Node]
@@ -126,7 +126,7 @@ RETURN d.title, t.date, d.features
 
 #### **Query Flow Diagram**
 
-The following Mermaid diagram shows how queries interact with the AGNN database:
+The following diagram shows how queries interact with the AGNN database:
 
 ```mermaid
 flowchart TD
