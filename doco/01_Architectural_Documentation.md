@@ -145,8 +145,8 @@ Below is a visual representation of the cloud deployment architecture for AGNN:
 
 ```mermaid
 flowchart TD
-    subgraph Cloud Deployment
-        subgraph Kubernetes Cluster
+    subgraph Cloud_Deployment
+        subgraph Kubernetes_Cluster
             FE[Frontend (User Interface & API Module)]
             BE[Backend (Model Training & Execution)]
             DB[Graph Database]
