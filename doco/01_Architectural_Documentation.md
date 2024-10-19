@@ -233,12 +233,12 @@ Contextual awareness is achieved by dynamically adjusting node and edge attribut
 
 ```mermaid
 flowchart TD
-    subgraph Contextual_Awareness
-        A[Data Update (e.g., new legal precedent)]
+    subgraph ContextualAwareness
+        A[Data Update]
         B[Node Attribute Update]
-        C[Contextual Node Update]
+        C[Context Node Update]
         D[Cross-Domain Correlation]
-        E[Contextual Inference Engine]
+        E[Inference Engine]
     end
 
     A --> B
