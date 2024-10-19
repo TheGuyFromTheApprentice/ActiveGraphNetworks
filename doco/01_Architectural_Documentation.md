@@ -147,12 +147,12 @@ Below is a visual representation of the cloud deployment architecture for AGNN:
 flowchart TD
     subgraph Cloud_Deployment
         subgraph Kubernetes_Cluster
-            FE[Frontend (User Interface & API Module)]
-            BE[Backend (Model Training & Execution)]
-            DB[Graph Database]
+            FE[Frontend - User Interface & API Module]
+            BE[Backend - Model Training & Execution]
+            DB[(Graph Database)]
         end
-        Storage[Cloud Storage (e.g., Azure Blob)]
-        GPU[GPU Nodes]
+        Storage[(Cloud Storage - e.g., Azure Blob)]
+        GPU[(GPU Nodes)]
     end
 
     FE --> BE
