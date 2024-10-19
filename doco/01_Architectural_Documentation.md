@@ -1,22 +1,22 @@
 
 # 01_Architectural_Documentation.md
 
-## **AGNN Architectural Documentation**
+## **AGN Architectural Documentation**
 
 ### **1. Introduction**
 
-This document outlines the architecture of the Active Graph Neural Network (AGNN) framework, detailing the structure, components, and interactions necessary for implementing and deploying the system. It serves as a guide for developers, data scientists, and system architects to understand the design and flow of data and processes within the AGNN framework.
+This document outlines the architecture of the Active Graph Neural Network (AGN) framework, detailing the structure, components, and interactions necessary for implementing and deploying the system. It serves as a guide for developers, data scientists, and system architects to understand the design and flow of data and processes within the AGN framework.
 
 ### **2. System Overview**
 
-The AGNN architecture is designed to handle complex, structured data relationships by leveraging graph theory and neural network capabilities. The primary components of the AGNN system include:
+The AGN architecture is designed to handle complex, structured data relationships by leveraging graph theory and neural network capabilities. The primary components of the AGN system include:
 
 - **Data Ingestion and Processing Module**: Responsible for collecting, cleaning, and processing data inputs from various sources, transforming them into a structured format suitable for graph representation.
 - **Graph Construction Module**: Builds and maintains graph structures, defining nodes, edges, and attributes based on the input data.
 - **Feature Engineering and Contextualization Module**: Enriches nodes and edges with attributes that provide context and relevance, enabling more advanced analysis and reasoning capabilities.
 - **Model Training and Execution Module**: Implements the neural network training and inference process, leveraging GPU acceleration and cloud resources for scalability.
 - **Query Engine and ACL Management Module**: Manages structured queries and enforces Access Control Lists (ACLs) to control visibility and access to different parts of the graph.
-- **User Interface and API Module**: Provides an interface for users to interact with the AGNN framework and an API for external integration.
+- **User Interface and API Module**: Provides an interface for users to interact with the AGN framework and an API for external integration.
 
 ### **3. Architectural Components**
 
@@ -61,14 +61,14 @@ The AGNN architecture is designed to handle complex, structured data relationshi
 
 #### **3.6 User Interface and API Module**
 
-- **Description**: Provides a web-based interface and API for users and systems to interact with AGNN.
+- **Description**: Provides a web-based interface and API for users and systems to interact with AGN.
 - **Functions**:
   - Frontend: User-friendly interface for visualization and exploration.
-  - API: RESTful API for programmatic access to AGNN features.
+  - API: RESTful API for programmatic access to AGN features.
 
 ### **4. Data Flow**
 
-Here’s a visual representation of the AGNN data flow:
+Here’s a visual representation of the AGN data flow:
 
 ```mermaid
 flowchart TD
@@ -80,11 +80,11 @@ flowchart TD
     F --> G[User Interface & API Module]
 ```
 
-This diagram illustrates the sequential flow of data through the AGNN system, highlighting how each module interacts with the next to transform raw data into meaningful insights.
+This diagram illustrates the sequential flow of data through the AGN system, highlighting how each module interacts with the next to transform raw data into meaningful insights.
 
 ### **5. Graph Database Structure**
 
-The AGNN graph database stores data in a structured format using nodes and edges. Below is a diagram showing the database structure:
+The AGN graph database stores data in a structured format using nodes and edges. Below is a diagram showing the database structure:
 
 ```mermaid
 graph TB
@@ -108,9 +108,9 @@ graph TB
 
 This diagram shows the relationships between different types of nodes within the graph database. It highlights how documents, timestamps, attributes, features, contexts, and ACLs interact and are connected through edges.
 
-### **6. Proposed Query Language for AGNN**
+### **6. Proposed Query Language for AGN**
 
-The AGNN framework features a structured query language designed for extracting and manipulating data within the graph. The language supports complex queries based on node types, relationships, and attributes.
+The AGN framework features a structured query language designed for extracting and manipulating data within the graph. The language supports complex queries based on node types, relationships, and attributes.
 
 **Example Query Syntax:**
 
@@ -126,7 +126,7 @@ RETURN d.title, t.date, d.features
 
 #### **Query Flow Diagram**
 
-The following diagram shows how queries interact with the AGNN database:
+The following diagram shows how queries interact with the AGN database:
 
 ```mermaid
 flowchart TD
@@ -141,7 +141,7 @@ This diagram illustrates the flow of a user query through the system. The query 
 
 ### **7. Deployment Architecture**
 
-Below is a visual representation of the cloud deployment architecture for AGNN:
+Below is a visual representation of the cloud deployment architecture for AGN:
 
 ```mermaid
 flowchart TD
@@ -165,7 +165,7 @@ This diagram shows the cloud components, including the Kubernetes cluster, stora
 
 ### **8. Security Considerations**
 
-AGNN incorporates security measures such as:
+AGN incorporates security measures such as:
 
 - **Data Encryption**: Encrypts data at rest and in transit.
 - **ACL Enforcement**: Ensures that only authorized users can access or modify graph data.
@@ -173,7 +173,7 @@ AGNN incorporates security measures such as:
 
 ### **9. Scalability and Performance**
 
-The AGNN architecture is designed to scale horizontally by:
+The AGN architecture is designed to scale horizontally by:
 
 - **Using Cloud Resources**: Leveraging cloud services for GPU acceleration and large-scale data processing.
 - **Auto-scaling**: Dynamically adjusting resources based on load and usage patterns.
@@ -181,7 +181,7 @@ The AGNN architecture is designed to scale horizontally by:
 
 ### **10. Future Enhancements**
 
-Potential enhancements to the AGNN architecture include:
+Potential enhancements to the AGN architecture include:
 
 - **Integration with External AI Models**: Incorporating pretrained models for specific domains like NLP or sentiment analysis.
 - **Edge Computing Capabilities**: Extending processing to edge devices for real-time, localized analysis.
@@ -189,4 +189,4 @@ Potential enhancements to the AGNN architecture include:
 
 ### **11. Conclusion**
 
-This architectural documentation provides a comprehensive view of the AGNN system's components, deployment strategy, and query language. It includes interactive diagrams to visualize data flow, the graph database structure, and the query mechanism. The architecture is modular, secure, and scalable, designed for handling complex data relationships and advanced queries.
+This architectural documentation provides a comprehensive view of the AGN system's components, deployment strategy, and query language. It includes interactive diagrams to visualize data flow, the graph database structure, and the query mechanism. The architecture is modular, secure, and scalable, designed for handling complex data relationships and advanced queries.
