@@ -1,5 +1,5 @@
 
-# 1_Architectural_Documentation.md
+# 01_Architectural_Documentation.md
 
 ## **AGNN Architectural Documentation**
 
@@ -11,33 +11,60 @@ This document outlines the architecture of the Active Graph Neural Network (AGNN
 
 The AGNN architecture is designed to handle complex, structured data relationships by leveraging graph theory and neural network capabilities. The primary components of the AGNN system include:
 
-- **Data Ingestion and Processing Module**
-- **Graph Construction Module**
-- **Feature Engineering and Contextualization Module**
-- **Model Training and Execution Module**
-- **Query Engine and ACL Management Module**
-- **User Interface and API Module**
+- **Data Ingestion and Processing Module**: Responsible for collecting, cleaning, and processing data inputs from various sources, transforming them into a structured format suitable for graph representation.
+- **Graph Construction Module**: Builds and maintains graph structures, defining nodes, edges, and attributes based on the input data.
+- **Feature Engineering and Contextualization Module**: Enriches nodes and edges with attributes that provide context and relevance, enabling more advanced analysis and reasoning capabilities.
+- **Model Training and Execution Module**: Implements the neural network training and inference process, leveraging GPU acceleration and cloud resources for scalability.
+- **Query Engine and ACL Management Module**: Manages structured queries and enforces Access Control Lists (ACLs) to control visibility and access to different parts of the graph.
+- **User Interface and API Module**: Provides an interface for users to interact with the AGNN framework and an API for external integration.
 
 ### **3. Architectural Components**
 
 #### **3.1 Data Ingestion and Processing Module**
-*(Details as in the initial version)*
+
+- **Description**: Collects and pre-processes data from various sources (e.g., time series data, documents, web scrapers).
+- **Functions**:
+  - Data transformation: Converts raw data into a graph-compatible format.
+  - Cleaning: Removes anomalies and ensures data consistency.
+  - Integration: Combines data from multiple domains.
 
 #### **3.2 Graph Construction Module**
-*(Details as in the initial version)*
+
+- **Description**: Responsible for constructing and maintaining the graph database, defining nodes, edges, and relationships.
+- **Functions**:
+  - Node creation: Defines entities (e.g., documents, time series entries) as nodes.
+  - Edge creation: Defines relationships between nodes.
+  - Attribute assignment: Adds contextual data to nodes and edges.
 
 #### **3.3 Feature Engineering and Contextualization Module**
-*(Details as in the initial version)*
+
+- **Description**: Enriches the graph by adding attributes and context, enhancing the model's ability to make inferences.
+- **Functions**:
+  - Feature extraction: Derives key features from raw data.
+  - Contextualization: Adds information relevant to the domain (e.g., financial indicators, legal references).
 
 #### **3.4 Model Training and Execution Module**
-*(Details as in the initial version)*
+
+- **Description**: Manages the training and inference of the neural network models based on graph data.
+- **Functions**:
+  - Training: Uses GPU resources to accelerate model training.
+  - Inference: Applies the trained model to new data, generating predictions and insights.
+  - Monitoring: Tracks model performance and accuracy.
 
 #### **3.5 Query Engine and ACL Management Module**
-*(Details as in the initial version)*
+
+- **Description**: Manages query operations and enforces ACLs for security and visibility.
+- **Functions**:
+  - Structured query processing: Allows users to perform advanced queries on the graph.
+  - ACL enforcement: Controls access and visibility based on user roles and graph policies.
+  - Inheritance management: Supports hierarchical visibility rules.
 
 #### **3.6 User Interface and API Module**
-*(Details as in the initial version)*
 
+- **Description**: Provides a web-based interface and API for users and systems to interact with AGNN.
+- **Functions**:
+  - Frontend: User-friendly interface for visualization and exploration.
+  - API: RESTful API for programmatic access to AGNN features.
 ### **4. Data Flow**
 
 Here’s a visual representation of the AGNN data flow:
@@ -138,18 +165,27 @@ This diagram shows the cloud components, including the Kubernetes cluster, stora
 
 ### **8. Security Considerations**
 
-*(Details as in the initial version)*
+AGNN incorporates security measures such as:
+
+- **Data Encryption**: Encrypts data at rest and in transit.
+- **ACL Enforcement**: Ensures that only authorized users can access or modify graph data.
+- **Logging and Monitoring**: Monitors system activities and logs access for auditing.
 
 ### **9. Scalability and Performance**
 
-*(Details as in the initial version)*
+The AGNN architecture is designed to scale horizontally by:
+
+- **Using Cloud Resources**: Leveraging cloud services for GPU acceleration and large-scale data processing.
+- **Auto-scaling**: Dynamically adjusting resources based on load and usage patterns.
+- **Distributed Training**: Distributing model training across multiple nodes for faster processing.
 
 ### **10. Future Enhancements**
 
-Potential future enhancements could include:
+Potential enhancements to the AGNN architecture include:
 
-- **Dynamic Query Optimization**: Optimizing the query engine for faster processing based on query patterns and usage analytics.
-- **Integration with AI Services**: Incorporating AI models for automatic query generation and context-aware recommendations.
+- **Integration with External AI Models**: Incorporating pretrained models for specific domains like NLP or sentiment analysis.
+- **Edge Computing Capabilities**: Extending processing to edge devices for real-time, localized analysis.
+- **Dynamic Graph Updates**: Implementing mechanisms for updating the graph structure in real-time as new data is ingested.
 
 ### **11. Conclusion**
 
