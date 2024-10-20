@@ -1,3 +1,4 @@
+
 # Data Management Plan for AGNs
 
 ## 1. Data Sources
@@ -18,3 +19,4 @@
 - Regular audits ensure compliance with regulatory standards.
 
 **[User input required]**: Confirm the data retention duration for specific use cases.
+    
