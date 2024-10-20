@@ -29,4 +29,4 @@ The repository is provided on an "as-is" basis. The Licensor makes no warranties
 The Licensor may terminate your access to this repository at any time, for any reason, without notice. Upon termination, you must cease all use and delete any copies of the repository content in your possession.
 
 ## 7. Governing Law
-This License Agreement will be governed and interpreted under the laws of [Insert Your Jurisdiction, e.g., South Australia]. Any disputes arising under this agreement will be subject to the exclusive jurisdiction of the courts of [Insert Your Jurisdiction].
+This License Agreement will be governed and interpreted under the laws of Australia. Any disputes arising under this agreement will be subject to the exclusive jurisdiction of the courts of Australia.
