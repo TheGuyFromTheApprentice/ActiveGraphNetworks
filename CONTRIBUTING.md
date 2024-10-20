@@ -25,4 +25,4 @@ The Licensor may, at their sole discretion, provide attribution to contributors 
 - Any unauthorized use, reproduction, or distribution of the repository content or your contributions will be subject to legal action, and you agree that the Licensor has the right to seek damages and enforce their intellectual property rights in court.
 
 ## 5. Governing Law
-This CLA will be governed and interpreted under the laws of [Insert Your Jurisdiction, e.g., South Australia]. Any disputes arising under this agreement will be subject to the exclusive jurisdiction of the courts of [Insert Your Jurisdiction].
+This CLA will be governed and interpreted under the laws of Australia. Any disputes arising under this agreement will be subject to the exclusive jurisdiction of the courts of Australia.
