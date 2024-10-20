@@ -1,4 +1,3 @@
-```markdown
 # Security Assessment Document
 
 ## 1. Overview
@@ -96,4 +95,3 @@ graph TD;
 - **Best Practices:** Regular training sessions for staff, secure development practices (DevSecOps), and strict IAM policies.
 
 This security assessment provides a comprehensive overview of the strategies and controls to secure AGNs across multiple environments. If this aligns with your expectations, I can continue with the next document.
-```
