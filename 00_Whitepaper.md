@@ -2,9 +2,10 @@ It seems like there are a couple of issues with the syntax, particularly with ho
 
 ```mermaid
 graph TD;
-    New_Data[New Data Ingested] --> Update_Module[Dynamic Update Module];
-    Update_Module --> AGN_Model[AGN Model];
-    AGN_Model --> Relationship_Change[Relationship Adjusted];
+    Healthcare[Healthcare Domain] -->|Feeds Data| AGDB[Active Graph Database];
+    Finance[Finance Domain] -->|Feeds Data| AGDB;
+    Legal[Legal Domain] -->|Feeds Data| AGDB;
+    AGDB --> AGN_Model[AGN Model {Contextual Relationships Across Domains}];
 ```
 
 **Fixes applied:**
