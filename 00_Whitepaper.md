@@ -23,7 +23,7 @@ By using a policy-based framework, AGNs ensure that the AI model remains scalabl
 
 ```mermaid
 graph TD;
-    Node_A[Node A {Financial Data}] -->|Policy Enforced Relationship| Node_B[Node B {Economic Indicator}];
+    Node_A[Node A {Financial Data}] -->|Policy Enforced Relationship| Node_B[Node B - Economic Indicator];
     Node_B -->|Inheritance Allowed| Node_C[Node C {Regional Context}];
     Policy_Engine[Policy Engine] -->|Defines Rules| Node_A;
     Policy_Engine -->|Defines Rules| Node_B;
