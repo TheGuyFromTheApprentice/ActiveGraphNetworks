@@ -57,9 +57,11 @@ Unlike conventional AI models that require extensive retraining when datasets ev
 
 ```mermaid
 graph TD;
-    New_Data[New Data Ingested] --> Update_Module[Dynamic Update Module];
-    Update_Module --> AGN_Model;
-    AGN_Model --> Relationship_Change[Relationship Adjusted];
+    Healthcare[Healthcare Domain] -->|Feeds Data| AGDB;
+    Finance[Finance Domain] -->|Feeds Data| AGDB;
+    Legal[Legal Domain] -->|Feeds Data| AGDB;
+    AGDB --> AGN_Model[AGN Model - Contextual Relationships Across Domains];
+
 ```
 
 *Diagram 3: The Dynamic Update Module allows new data to adjust relationships within the AGN model in real-time, ensuring continuous learning.*
