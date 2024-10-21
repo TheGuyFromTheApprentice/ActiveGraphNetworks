@@ -1,6 +1,4 @@
-# 01_Architectural_Documentation.md
-
-## **AGN Architectural Documentation**
+# **AGN Architectural Documentation**
 
 ### **1. Introduction**
 
@@ -191,24 +189,23 @@ Potential enhancements to the AGN framework include:
 
 This architectural documentation provides a comprehensive view of the AGN system's components, deployment strategy, and query language. It includes interactive diagrams to visualize data flow, the AGDB structure, and the query mechanism. The architecture is modular, secure, and scalable, designed for handling complex data relationships and advanced queries.
 
-The current documentation also covers AGN, AGDB,
-
- and RGN components, offering clarity on how these elements work together to provide a robust framework for handling structured, dynamic, and context-aware data.
+The current documentation also covers AGN, AGDB, and RGN components, offering clarity on how these elements work together to provide a robust framework for handling structured, dynamic, and context-aware data.
 
 ### **12. Reasoning Mechanism in AGNs**
 
-AGNs utilizes reasoning through structured queries, graph traversal algorithms, and attribute evaluation. Below is an expanded explanation:
+AGNs utilize reasoning through structured queries, graph traversal algorithms, and attribute evaluation. Below is an expanded explanation:
 
 #### **12.1 Graph Traversal for Inference**
 
-- **Breadth-First Search (BFS)** and **Depth-First Search (DFS)**: AGNs employs these algorithms to explore relationships within AGDB.
+- **Breadth-First Search (BFS)** and **Depth-First Search (DFS)**: AGNs employ these algorithms to explore relationships within AGDB.
 - **Weighted Relationships**: Edges between nodes in AGDB are assigned weights representing connection strength.
 
 #### **12.2 Attribute Evaluation and Contextual Awareness in RGN**
 
 - **Node and Edge Attributes**: Evaluates domain-specific attributes and relationships.
-- **Aggregation**: AGNs aggregates attributes for contextual profiles.
+- **Aggregation**: AGNs aggregate attributes for contextual profiles.
 
 #### **12.3 Domain-Specific Policies**
 
 - **Rule-Based Systems**: Applies domain rules and policies within RGN.
+
