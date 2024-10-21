@@ -1,11 +1,12 @@
 It seems like there are a couple of issues with the syntax, particularly with how edges and nodes are represented. Let’s correct the diagram:
 
 ```mermaid
-graph TB
-    AGDB["AGDB"] --> Node_1["Node A (Patient Information)"]
-    AGDB --> Node_2["Node B (Treatment Protocol)"]
-    Node_1 -->|Prescribed Medication| Node_2
-    Node_1 --> Context_Node["Context Node (Risk Factors)"]
+graph TD;
+    Data_Ingestion[Data Ingestion and Processing Module] --> AGDB[Active Graph Database];
+    AGDB --> AGNs_Model[AGNs Model Module];
+    AGNs_Model --> Policy_Engine[Policy Engine];
+    Policy_Engine --> Query_Engine[Query Engine & ACL Management];
+    Query_Engine --> UI_API[User Interface & API Module];
 ```
 
 **Fixes applied:**
