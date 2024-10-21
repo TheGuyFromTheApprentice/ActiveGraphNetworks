@@ -2,11 +2,9 @@ It seems like there are a couple of issues with the syntax, particularly with ho
 
 ```mermaid
 graph TD;
-    Data_Ingestion[Data Ingestion and Processing Module] --> AGDB[Active Graph Database];
-    AGDB --> AGNs_Model[AGNs Model Module];
-    AGNs_Model --> Policy_Engine[Policy Engine];
-    Policy_Engine --> Query_Engine[Query Engine & ACL Management];
-    Query_Engine --> UI_API[User Interface & API Module];
+    New_Data[New Data Ingested] --> Update_Module[Dynamic Update Module];
+    Update_Module --> AGN_Model[AGN Model];
+    AGN_Model --> Relationship_Change[Relationship Adjusted];
 ```
 
 **Fixes applied:**
