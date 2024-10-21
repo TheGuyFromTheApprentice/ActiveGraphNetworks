@@ -45,10 +45,10 @@ Active Graph Databases (AGDBs) are hierarchical, relational graph databases that
 
 ```mermaid
 graph TD;
-    User[User Request] --> Query_Engine[Query Engine];
-    Query_Engine --> AGDB[Active Graph Database];
-    AGDB --> Results[Return Results to User];
-    Policy_Engine -->|Access Check| Query_Engine;
+    Node_A[Node A {Financial Data}] -->|Policy Enforced Relationship| Node_B[Node B {Economic Indicator}];
+    Node_B -->|Inheritance Allowed| Node_C[Node C {Regional Context}];
+    Policy_Engine[Policy Engine] -->|Defines Rules| Node_A;
+    Policy_Engine -->|Defines Rules| Node_B;
 ```
 
 This diagram illustrates how AGDB aggregates data from multiple domains, allowing the AGN model to provide contextual insights and advanced reasoning capabilities across different industries.
