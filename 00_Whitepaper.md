@@ -1,3 +1,27 @@
+It looks like the curly braces `{}` used in the labels of nodes are causing the parsing errors. I will replace them with parentheses `()` to ensure compatibility with GitHub's Mermaid rendering. Here are the corrected diagrams:
+
+### Diagram 2: Policy-Driven AI
+
+```mermaid
+graph TD;
+    Node_A[Node A (Financial Data)] -->|Policy Enforced Relationship| Node_B[Node B (Economic Indicator)];
+    Node_B -->|Inheritance Allowed| Node_C[Node C (Regional Context)];
+    Policy_Engine[Policy Engine] -->|Defines Rules| Node_A;
+    Policy_Engine -->|Defines Rules| Node_B;
+```
+
+### Diagram 6: Multi-Domain Architecture
+
+```mermaid
+graph TD;
+    Healthcare[Healthcare Domain] -->|Feeds Data| AGDB[Active Graph Database];
+    Finance[Finance Domain] -->|Feeds Data| AGDB;
+    Legal[Legal Domain] -->|Feeds Data| AGDB;
+    AGDB --> AGN_Model[AGN Model (Contextual Relationships Across Domains)];
+```
+
+These versions should now render correctly on GitHub without any parsing issues. Let me know if you need any further modifications!
+
 Absolutely! Here are the corrected versions of diagrams 2 and 6 formatted for compatibility with GitHub's Mermaid support:
 
 ### Diagram 2: Policy-Driven AI
