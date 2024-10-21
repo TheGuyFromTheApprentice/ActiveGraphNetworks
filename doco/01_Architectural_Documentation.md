@@ -1,7 +1,3 @@
-Certainly! Here's the refactored architectural documentation that differentiates between **AGN** (Active Graph Network - the AI Model), **AGDB** (Active Graph Database - the graph database itself), and **RGN** (Relational Graph Networks - the specific relationship rules and policies for dynamic contextual awareness):
-
----
-
 # 01_Architectural_Documentation.md
 
 ## **AGN Architectural Documentation**
@@ -216,7 +212,3 @@ AGNs utilizes reasoning through structured queries, graph traversal algorithms, 
 #### **12.3 Domain-Specific Policies**
 
 - **Rule-Based Systems**: Applies domain rules and policies within RGN.
-
----
-
-This refactored documentation clearly differentiates between AGN, AGDB, and RGN while maintaining clarity and comprehensiveness. Let me know if further adjustments are needed!
