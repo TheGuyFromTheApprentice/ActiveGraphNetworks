@@ -1,11 +1,11 @@
 It looks like there's a syntax issue in your Mermaid diagram, likely due to the special character usage or formatting. Let's try correcting it:
 
 ```mermaid
-graph TD
-    Node_A["Node A (Financial Data)"] -->|Policy Enforced Relationship| Node_B["Node B (Economic Indicator)"]
-    Node_B -->|Inheritance Allowed| Node_C["Node C (Regional Context)"]
-    Policy_Engine["Policy Engine"] -->|Defines Rules| Node_A
-    Policy_Engine -->|Defines Rules| Node_B
+graph TB;
+    AGDB[AGDB] --> Node_1[Node A (Patient Information)];
+    AGDB --> Node_2[Node B (Treatment Protocol)];
+    Node_1 --> Edge_1[Edge (Prescribed Medication)] --> Node_2;
+    Node_1 --> Context_Node[Context Node {Risk Factors}];
 ```
 
 **Fixes applied:**
