@@ -73,7 +73,7 @@ AGNs and AGDBs work hand-in-hand to form a cohesive, dynamic framework for AI-dr
 
 ```mermaid
 graph TD;
-    Node_A[Node A {Financial Data}] -->|Policy Enforced Relationship| Node_B[Node B {Economic Indicator}];
+Node_A[Node A (Financial Data)] -->|Policy Enforced Relationship| Node_B[Node B (Economic Indicator)];
     Node_B -->|Inheritance Allowed| Node_C[Node C {Regional Context}];
     Policy_Engine[Policy Engine] -->|Defines Rules| Node_A;
     Policy_Engine -->|Defines Rules| Node_B;
