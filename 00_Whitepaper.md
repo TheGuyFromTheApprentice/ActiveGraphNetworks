@@ -1,13 +1,15 @@
-The error in your Mermaid diagram is caused by a mismatch between the Mermaid syntax and the use of curly braces `{}`. The correct syntax should use parentheses `()` instead of curly braces.
-
-Here's the fixed version of your diagram:
+It looks like there's a syntax issue in your Mermaid diagram, likely due to the special character usage or formatting. Let's try correcting it:
 
 ```mermaid
-graph TD;
-    Node_A[Node A (Financial Data)] -->|Policy Enforced Relationship| Node_B[Node B (Economic Indicator)];
-    Node_B -->|Inheritance Allowed| Node_C[Node C (Regional Context)];
-    Policy_Engine[Policy Engine] -->|Defines Rules| Node_A;
-    Policy_Engine -->|Defines Rules| Node_B;
+graph TD
+    Node_A["Node A (Financial Data)"] -->|Policy Enforced Relationship| Node_B["Node B (Economic Indicator)"]
+    Node_B -->|Inheritance Allowed| Node_C["Node C (Regional Context)"]
+    Policy_Engine["Policy Engine"] -->|Defines Rules| Node_A
+    Policy_Engine -->|Defines Rules| Node_B
 ```
 
-I've replaced `{}` with `()` to make the node labels compatible with the Mermaid syntax used by GitHub. This should resolve the parsing error.
+**Fixes applied:**
+1. Removed the semicolon after `graph TD;` as it's unnecessary in Mermaid syntax.
+2. Wrapped the node labels in `"` to avoid issues with special characters like parentheses.
+
+Try using this updated version, and it should render properly. Let me know if you need further adjustments!
