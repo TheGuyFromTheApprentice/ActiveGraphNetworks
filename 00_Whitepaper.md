@@ -2,10 +2,36 @@ The issue seems to be with the curly braces `{}` in the node label for `AGN_Mode
 
 ```mermaid
 graph TD
-    Healthcare["Healthcare Domain"] -->|Feeds Data| AGDB["Active Graph Database"]
-    Finance["Finance Domain"] -->|Feeds Data| AGDB
-    Legal["Legal Domain"] -->|Feeds Data| AGDB
-    AGDB --> AGN_Model["AGN Model (Contextual Relationships Across Domains)"]
+    A[Multi-Domain Data Sources] --> B[ETL Process]
+    B --> C[AGDB (Active Graph Database)]
+    C --> D[AGN (Active Graph Network)]
+    D --> E[RGN (Relational Graph Network)]
+
+    subgraph Core Components
+        C
+        D
+        E
+    end
+
+    D --> F[Dynamic Relationships]
+    D --> G[Policy & Access Control Management]
+    E --> H[Cross-Domain Analysis]
+    E --> I[Hierarchical Node Structure]
+    D --> J[Graph Visualization Tools]
+    C --> K[Data Sync & Replication Management]
+    C --> L[Scalable Architecture & Caching]
+
+    G --> M[Security Layer]
+    M --> N[Encryption & Data Integrity]
+    M --> O[Granular ACLs]
+    
+    H --> P[Financial Modeling]
+    H --> Q[Healthcare Systems]
+    H --> R[Legal Document Analysis]
+    
+    D --> S[AI/ML Integration]
+    S --> T[Predictive Analytics]
+    S --> U[Adaptive Learning]
 ```
 
 **Fixes applied:**
