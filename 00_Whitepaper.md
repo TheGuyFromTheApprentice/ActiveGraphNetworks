@@ -2,9 +2,9 @@ The issue seems to be with the curly braces `{}` in the node label for `AGN_Mode
 
 ```mermaid
 graph TD
-    A[Multi-Domain Data Sources] -->|ETL Process| B[AGDB (Active Graph Database)]
-    B --> D[AGN (Active Graph Network)]
-    D --> E[RGN (Relational Graph Network)]
+    A[Multi-Domain Data Sources] -->|ETL Process| B[AGDB - Active Graph Database]
+    B --> D[AGN - Active Graph Network]
+    D --> E[RGN - Relational Graph Network]
 
     subgraph Core Components
         B
