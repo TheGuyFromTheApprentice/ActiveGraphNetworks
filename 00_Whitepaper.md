@@ -2,13 +2,12 @@ The issue seems to be with the curly braces `{}` in the node label for `AGN_Mode
 
 ```mermaid
 graph TD
-    A[Multi-Domain Data Sources] --> B[ETL Process]
-    B --> C[AGDB (Active Graph Database)]
-    C --> D[AGN (Active Graph Network)]
+    A[Multi-Domain Data Sources] -->|ETL Process| B[AGDB (Active Graph Database)]
+    B --> D[AGN (Active Graph Network)]
     D --> E[RGN (Relational Graph Network)]
 
     subgraph Core Components
-        C
+        B
         D
         E
     end
@@ -18,8 +17,8 @@ graph TD
     E --> H[Cross-Domain Analysis]
     E --> I[Hierarchical Node Structure]
     D --> J[Graph Visualization Tools]
-    C --> K[Data Sync & Replication Management]
-    C --> L[Scalable Architecture & Caching]
+    B --> K[Data Sync & Replication Management]
+    B --> L[Scalable Architecture & Caching]
 
     G --> M[Security Layer]
     M --> N[Encryption & Data Integrity]
