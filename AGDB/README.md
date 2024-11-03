@@ -1,7 +1,3 @@
-Here's an enhanced `.md` document that includes mermaid diagrams to visually explain the architecture, structure, and definitions of AGDB and how it integrates with Active Graph Theory (AGT) and Active Graph Networks (AGN).
-
----
-
 # AGDB Time Series Graphs and Query Structure
 
 Active Graph Databases (AGDBs) are a groundbreaking framework for efficiently handling time-series data. They are structured to facilitate quick querying and contextual relationships, integrating with **Active Graph Theory (AGT)** and **Active Graph Networks (AGN)** for advanced data interactions across domains.
