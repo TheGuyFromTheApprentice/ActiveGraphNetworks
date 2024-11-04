@@ -1,4 +1,4 @@
-Absolutely, focusing on trading data allows us to make the framework more concrete and brings the example closer to your use case. I'll expand on the AGN-AGDB 3D structure specifically for trading data, incorporating feature engineering for indicators like RSI, MACD, Bollinger Bands, EMA, and SMA. Here’s how we can approach it:
+Focusing on trading data allows us to make the framework more concrete and brings the example closer to your use case. I'll expand on the AGN-AGDB 3D structure specifically for trading data, incorporating feature engineering for indicators like RSI, MACD, Bollinger Bands, EMA, and SMA. Here’s how we can approach it:
 
 1. **X and Y Axes (AGN Layer)**: This layer will define relationships between raw trading data (Open, High, Low, Close, Volume) and derived features or indicators (RSI, MACD, Bollinger Bands, etc.). Each derived feature will have calculation nodes and relationships that define how it’s computed based on raw data. 
 
