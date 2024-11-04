@@ -1,7 +1,3 @@
-Certainly! Here’s a comprehensive document that merges all aspects of the **Active Graph Database (AGDB)** and **Active Graph Network (AGN)** framework, focusing on its utility, layered structure, and technical design. This document will use the trading bot as an example but will highlight its adaptability to various domains.
-
----
-
 # Active Graph Database (AGDB) & Active Graph Network (AGN) Framework
 
 ## Introduction
