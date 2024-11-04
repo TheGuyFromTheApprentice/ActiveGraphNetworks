@@ -32,7 +32,7 @@ The AGDB framework utilizes **two main databases**:
 
 ```mermaid
 graph TD
-  subgraph AGDB_RawData_Z[AGDB 1: Raw Data (Z-Axis)]
+  subgraph AGDB_RawData_Z
     Year2024_Raw[2024 Year]
     Month11_Raw[November]
     Day04_Raw[4th]
@@ -47,7 +47,7 @@ graph TD
     RawNode --> Volume[Volume]
   end
 
-  subgraph AGDB_Features_Z[AGDB 2: Feature Engineering (Z-Axis)]
+  subgraph AGDB_Features_Z
     Year2024_Features[2024 Year]
     Month11_Features[November]
     Day04_Features[4th]
