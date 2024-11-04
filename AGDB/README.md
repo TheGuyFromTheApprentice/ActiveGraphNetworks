@@ -266,9 +266,7 @@ To optimize queries, AGDB uses a hierarchical time-based navigation structure wi
    }
    ```
 
-2. **Relationship
-
--Based Query for Correlation**:
+2. **Relationship-Based Query for Correlation**:
 
    ```json
    {
