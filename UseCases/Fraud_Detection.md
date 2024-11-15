@@ -30,9 +30,9 @@ graph LR
     B --> C[Internal Systems Monitoring]
     C --> D[Data Aggregation & Storage]
     D --> E[Data Flow Analysis]
-    E --> F[Cube4D's Multidimensional Representation]
-    F --> G[Active Graph Networks (AGN) Anomaly Detection]
-    G --> H[Alert/Remediation: Prevent Fraud/Cybersecurity Threats]
+    E --> F[Cube4D Multidimensional Representation]
+    F --> G[Active Graph Networks Anomaly Detection]
+    G --> H[Alert/Remediation: Prevent Fraud or Cybersecurity Threats]
     H --> I[Audit Logs and Compliance Documentation]
 ```
 
@@ -53,13 +53,13 @@ The next diagram illustrates how **Active Graph Theory (AGT)** detects anomalies
 ```mermaid
 graph TD
     A[Start: Data Monitoring] --> B[Track User/Transaction Patterns]
-    B --> C[Create Behavioral Baselines (Normal)]
+    B --> C[Create Behavioral Baselines - Normal]
     C --> D[Real-Time Data Flow Analysis]
     D --> E[Compare with Baseline]
     E --> F{Anomaly Detected?}
     F -->|Yes| G[Trigger Alert]
     F -->|No| H[Continue Monitoring]
-    G --> I[Automated Response (Block Transaction/Access)]
+    G --> I[Automated Response - Block Transaction or Access]
     I --> J[Audit Logs and Forensics]
     J --> K[Compliance and Reporting]
 ```
