@@ -347,3 +347,99 @@ The temporal structure within Cube4D is built on synthetic nodes representing di
 2. **Offset-Based Retrieval**: By applying offsets, Cube4D can efficiently pinpoint specific time-based data points without extensive processing.
 
 ---
+
+### **Expanded Visuals for Core Components and Structure**
+
+1. **Four-Dimensional Cube4D Structure Visualization**
+   Place this near the **Key Components and Structure** section.
+
+```mermaid
+graph TD
+    subgraph Cube4D_Structure
+        X["X-Axis: Raw Data Nodes (e.g., Knowledge Bases)"]
+        Y["Y-Axis: Relational Connections (e.g., Dependencies)"]
+        Z["Z-Axis: Policies and Adaptability Mechanisms"]
+        T["Temporal Dimension: Real-Time Data Adaptability"]
+    end
+    X --> Y
+    Y --> Z
+    Z --> T
+```
+
+2. **Policy and Relationship Example - Healthcare Emergency Response**
+   Place in the **Use Cases - Healthcare Analytics** section, after the "Emergency Alert System" example.
+
+```mermaid
+graph TD
+    subgraph Healthcare_Analytics_Policy
+        Patient["Patient Node"]
+        Doctor["Doctor Node"]
+        Condition["Condition: Hypertension"]
+        EmergencyPolicy["Emergency Policy"]
+    end
+    
+    Patient -->|Medical History| Doctor
+    Condition -->|Triggers| EmergencyPolicy
+    EmergencyPolicy -->|Increases Priority| Doctor
+```
+
+3. **Legal Document Analysis Structure Visualization**
+   Place within **Use Cases - Legal Document Analysis**.
+
+```mermaid
+graph TD
+    subgraph Legal_Knowledge_Graph
+        Clause["Clause A"]
+        Statute["Statute 1.1"]
+        Precedent["Precedent Case XYZ"]
+        Interpretation["Legal Interpretation"]
+        Amendment["Amendment 2024"]
+    end
+
+    Clause -->|References| Statute
+    Statute -->|Influenced By| Precedent
+    Precedent -->|Updated by| Amendment
+    Amendment -->|Modifies| Interpretation
+```
+
+4. **Financial Trading - Market Data Relationships and Policies Visualization**
+   Place within **Use Cases - Financial Trading and Market Analysis**.
+
+```mermaid
+graph TD
+    subgraph Financial_Trading
+        Stock["Stock: ABC Corp"]
+        Volatility["Volatility Index"]
+        Correlation["Correlation with Sector Index"]
+        TradePolicy["High-Volatility Priority Policy"]
+    end
+
+    Stock -->|Tracks| Volatility
+    Stock -->|Correlates With| Correlation
+    TradePolicy -->|Applied To| Stock
+    Volatility -->|Signals| TradePolicy
+```
+
+---
+
+### **Technical Examples for Bit Encoding and Querying**
+
+1. **Bit Encoding Example**  
+   Place this under **Appendix A: Bit Encoding Structure in Cube4D**.
+
+```plaintext
+Binary Encoding: 1011111.0010010.0000010..0010011.0000110
+- Node Location: Local/Remote Indicator
+- Data Context: Identifies "Patient" vs. "Relationship" Node
+- Axis Coordinates: X, Y, Z, representing data position in the structure
+```
+
+2. **Offset-Based Querying - Example in Healthcare Analytics**
+   Place within **Appendix C: Temporal Data Structuring and Synthetic Nodes**.
+
+**Example Query Process**:
+Retrieve heart rate data for “Patient ID 1234” at 12:07 PM on January 1, 2023, using offset logic.
+   - **Navigate Hierarchy**: Year > Month > Day > Hour > Minute
+   - **Apply Offset**: Start at “12:00 PM,” apply +7 offset within minute nodes to reach “12:07 PM.”
+
+
