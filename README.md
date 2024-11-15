@@ -419,7 +419,7 @@ If you have any questions or need assistance, please open an issue on GitHub or 
 
 # **Stay Connected**
 
-- **LinkedIn**: [Callum Maystone](h[ttps://www.linkedin.com/company/conicu-consulting](https://www.linkedin.com/in/callum-maystone-57b00932/))
+- **LinkedIn**: [Callum Maystone]([https://www.linkedin.com/company/conicu-consulting](https://www.linkedin.com/in/callum-maystone-57b00932/))
 - **Twitter**: [@CallumConicu]([https://twitter.com/ConicuConsult](https://x.com/CallumConicu))
 
 ---
