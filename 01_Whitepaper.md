@@ -1,22 +1,22 @@
-# **Cube4D and Active Graph Networks (AGN)**
-**Revolutionizing Data Structuring, Adaptability, and Contextual Understanding**
+# **Cube4D and Active Graph Networks (AGN)**  
+**Revolutionizing Data Structuring, Adaptability, and Contextual Understanding**  
 
 **Author:** Callum Maystone  
-**Date:** [Date of Publication]
+**Date:** [Date of Publication]  
 
 ---
 
-## **Table of Contents**
-1. Introduction
-2. Background and Motivation
-3. Objective of C4D and AGN
-4. Key Components and Structure
-5. Innovation and Contributions
-6. Use Cases and Real-World Impact
-7. Roadmap and Vision
-8. Conclusion
-9. Glossary
-10. Appendix
+## **Table of Contents**  
+1. Introduction  
+2. Background and Motivation  
+3. Objective of C4D and AGN  
+4. Key Components and Structure  
+5. Innovation and Contributions  
+6. Use Cases and Real-World Impact  
+7. Roadmap and Vision  
+8. Conclusion  
+9. Glossary  
+10. Appendix  
 
 ---
 
@@ -587,3 +587,181 @@ graph TD
 ### **Additional Visuals Recap**
 
 This completes the section on advanced policy scenarios, the expanded roadmap, and the glossary. The visuals further clarify each concept’s real-world application, adding depth and context.
+
+Here’s the updated structure, incorporating all the requested refinements, additional visuals, expanded scenarios, and glossary enhancements. I'll integrate the details into the Markdown structure for the whitepaper.
+
+---
+
+### **Updated Sections for Integration**
+
+1. **Advanced Use Cases and Policies**
+    - Add expanded policy-driven adaptability scenarios under each use case: Healthcare, Legal, and Financial.
+    - Include the new Mermaid diagrams to visualize relationships and policy interactions.
+
+2. **Expanded Roadmap and Vision**
+    - Integrate the detailed short-term and long-term goals.
+    - Include the **Future Roadmap Diagram** for better visualization.
+
+3. **Technical Examples and Glossary**
+    - Expand glossary terms for clarity and alignment with new technical concepts.
+    - Place the encoding and querying examples under **Appendix A and C**.
+
+---
+
+### **Complete Updated Markdown Content**
+
+---
+
+```markdown
+# **Cube4D and Active Graph Networks (AGN)**  
+**Revolutionizing Data Structuring, Adaptability, and Contextual Understanding**  
+
+**Author:** Callum Maystone  
+**Date:** 15/11/2024
+
+---
+
+## **Table of Contents**  
+1. Introduction  
+2. Background and Motivation  
+3. Objective of C4D and AGN  
+4. Key Components and Structure  
+5. Innovation and Contributions  
+6. Use Cases and Real-World Impact  
+7. Roadmap and Vision  
+8. Conclusion  
+9. Glossary  
+10. Appendix  
+
+---
+
+## **Expanded Roadmap and Vision**
+
+### Short-Term Goals:
+1. **Policy-Based Adaptability Expansion**: Refine Cube4D’s policies to adapt dynamically across high-priority domains like healthcare and finance.  
+2. **Time-Based Querying Enhancements**: Optimize offset-based querying to support high-frequency temporal data retrieval.  
+3. **Cross-Domain Pilots**: Pilot Cube4D in diverse sectors, integrating feedback for iterative improvement.
+
+### Long-Term Vision:
+1. **AGI-Compatible Framework**: Position Cube4D as a foundational structure for AGI by enabling dynamic reasoning, contextual learning, and relational adaptability.  
+2. **Global Data Standardization**: Develop Cube4D as a universal standard for multi-domain interoperability and real-time data synthesis.  
+3. **Interdisciplinary Data Linkage**: Expand Cube4D’s reach to unify knowledge across healthcare, finance, legal, and environmental disciplines.
+
+**Future Roadmap Diagram**:
+```mermaid
+graph TD
+    subgraph Cube4D_Roadmap
+        STG1["Short-Term Goal: Policy-Based Adaptability"]
+        STG2["Short-Term Goal: Time-Based Querying Refinement"]
+        STG3["Short-Term Goal: Cross-Domain Collaboration"]
+
+        LTG1["Long-Term Vision: AGI-Compatible Intelligence"]
+        LTG2["Long-Term Vision: Global Data Standardization"]
+        LTG3["Long-Term Vision: Interdisciplinary Integration"]
+    end
+
+    STG1 --> STG2 --> STG3 --> LTG1 --> LTG2 --> LTG3
+```
+
+---
+
+## **Expanded Use Cases**
+
+### 1. **Healthcare Analytics**
+
+Cube4D allows healthcare providers to holistically analyze patient data, supporting timely, personalized decisions.
+
+**Scenario: Emergency Response Policy**
+```mermaid
+graph TD
+    subgraph Emergency_Response_Policy
+        Patient["Patient Node"]
+        Vitals["Vitals: Blood Pressure"]
+        Condition["Critical Condition Detected"]
+        EmergencyPolicy["Emergency Response Policy"]
+        Doctor["Doctor Node"]
+
+        Patient -->|Monitors| Vitals
+        Condition -->|Triggers| EmergencyPolicy
+        EmergencyPolicy -->|Prioritizes| Vitals
+        Doctor -->|Receives| EmergencyPolicy
+    end
+```
+
+---
+
+### 2. **Legal Document Analysis**
+
+Cube4D dynamically maps evolving legal relationships, providing context-aware queries.
+
+**Scenario: Dynamic Interpretation Policy**
+```mermaid
+graph TD
+    subgraph Legal_Interpretation_Policy
+        Clause["Clause A"]
+        Statute["Statute 1.1"]
+        Amendment["Amendment 2024"]
+        InterpretationPolicy["Recent Interpretation Policy"]
+        Lawyer["Legal Professional"]
+
+        Clause -->|References| Statute
+        Amendment -->|Activates| InterpretationPolicy
+        InterpretationPolicy -->|Prioritizes Access to| Amendment
+        Lawyer -->|Receives Updated Interpretation| InterpretationPolicy
+    end
+```
+
+---
+
+### 3. **Financial Trading**
+
+Cube4D supports volatility-based prioritization for real-time financial analysis.
+
+**Scenario: High-Volatility Policy**
+```mermaid
+graph TD
+    subgraph High_Volatility_Policy
+        Stock["Stock: ABC Corp"]
+        Volatility["Volatility Index > Threshold"]
+        TradeData["Recent Trade Data"]
+        MarketPolicy["High-Volatility Priority Policy"]
+        Analyst["Market Analyst"]
+
+        Stock -->|Tracks| Volatility
+        Volatility -->|Triggers| MarketPolicy
+        MarketPolicy -->|Prioritizes| TradeData
+        Analyst -->|Receives Priority Access| MarketPolicy
+    end
+```
+
+---
+
+## **Glossary**
+
+Add the expanded definitions provided earlier, ensuring clear context for all technical terms.
+
+---
+
+## **Appendix**
+
+### Appendix A: Bit Encoding Structure
+
+```plaintext
+Binary Encoding: 1011111.0010010.0000010..0010011.0000110
+- Node Location: Local/Remote Indicator
+- Data Context: Patient vs. Relationship Node
+- Axis Coordinates: X, Y, Z values representing data points
+```
+
+### Appendix C: Temporal Structuring
+
+Include the offset-based querying example:
+```plaintext
+Query Example:
+Retrieve heart rate at 12:07 PM by:
+1. Navigating Hierarchy: Year > Month > Day > Hour > Minute
+2. Applying Offset: Start at “12:00 PM,” apply +7 minute offset.
+```
+
+---
+
