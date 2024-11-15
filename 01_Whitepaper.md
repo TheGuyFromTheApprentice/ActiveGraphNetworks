@@ -192,4 +192,94 @@ Cube4D’s **temporal data structuring** offers an efficient, adaptable framewor
 1. **Data Structuring**: Organize patient heart rate data by year, month, day, hour, and minute.
 2. **Query**: Retrieve the patient’s heart rate at a specific moment using a minute-level offset.
 
+
 ---
+
+## **In-Depth Use Cases with Practical Visuals**
+
+### 1. **Healthcare Analytics**
+
+Cube4D and AGN allow healthcare providers to analyze patient data holistically, viewing comprehensive treatment histories, current conditions, and outcomes in one place. By mapping patient histories in a multi-dimensional structure, Cube4D provides a robust tool for personalized healthcare decisions.
+
+**Visual Diagram - Patient Data Relationships**:
+```mermaid
+graph TD
+    subgraph Healthcare Analytics
+        Patient["Patient: ID 1234"]
+        Doctor["Doctor: Treating Physician"]
+        Condition["Condition: Hypertension"]
+        Treatment["Treatment: Medication - ACE Inhibitors"]
+        History["Patient History"]
+        EmergencyPolicy["Emergency Policy: Priority Access"]
+
+        Patient -->|Relationship: Medical History| History
+        Patient -->|Current Condition| Condition
+        Condition -->|Prescribed By| Doctor
+        Treatment -->|Policy Activation| EmergencyPolicy
+    end
+```
+
+**Query Example**:
+- Retrieve the patient’s current condition (Hypertension) and treatment priority if an emergency occurs.
+- Temporal data allows querying historical changes in patient conditions over time.
+
+---
+
+### 2. **Legal Document Analysis**
+
+In legal analysis, Cube4D maps relationships between clauses, statutes, and precedents, making the legal knowledge graph dynamic and contextually adaptive. This approach allows legal professionals to query relationships in real-time and track how legal interpretations shift.
+
+**Visual Diagram - Legal Knowledge Graph**:
+```mermaid
+graph TD
+    subgraph Legal Document Analysis
+        Clause["Clause A"]
+        Statute["Statute 1.1"]
+        Precedent["Precedent Case XYZ"]
+        Interpretation["Legal Interpretation"]
+        Amendment["Amendment 2024"]
+
+        Clause -->|Related To| Statute
+        Statute -->|Influenced By| Precedent
+        Precedent -->|Historical Reference| Amendment
+        Interpretation -->|Updated by| Amendment
+    end
+```
+
+**Query Example**:
+- Query changes to Clause A’s interpretation based on Amendment 2024, examining historical precedents and updating interpretations accordingly.
+
+---
+
+### 3. **Financial Trading and Market Analysis**
+
+Cube4D’s temporal adaptability is ideal for modeling real-time market shifts, allowing analysts to visualize volatility, correlations, and trends within a time-sensitive framework. Using policy-driven relationships, Cube4D prioritizes high-volatility periods and provides insights based on time-sensitive data.
+
+**Visual Diagram - Market Data Relationships**:
+```mermaid
+graph TD
+    subgraph Financial Trading
+        Stock["Stock: ABC Corp"]
+        Volatility["Volatility Index"]
+        Correlation["Correlation to Sector Index"]
+        TradePolicy["Policy: High Volatility Priority"]
+        Analyst["Market Analyst"]
+
+        Stock -->|Tracks| Volatility
+        Stock -->|Correlates With| Correlation
+        TradePolicy -->|Applied To| Stock
+        Analyst -->|Query| TradePolicy
+    end
+```
+
+**Query Example**:
+- Retrieve real-time market insights for ABC Corp under a high-volatility policy, linking relevant indexes and trends to provide context.
+
+---
+
+### 4. **Contextual Querying and Real-Time Adaptability**
+
+Cube4D’s ability to adapt queries contextually allows AGI to analyze complex systems as interrelated networks rather than isolated data points. This capability makes Cube4D valuable for any scenario that requires both real-time responsiveness and a deep understanding of relational context.
+
+---
+
