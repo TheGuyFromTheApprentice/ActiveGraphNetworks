@@ -58,9 +58,9 @@ AGNs enrich nodes and edges with attributes (e.g., risk level, priority) and pol
 
 ```mermaid
 graph TD
-    PortfolioManager["Portfolio Manager\n{Role: Senior, Risk: Low}"]
-    Trader["Trader\n{Role: Analyst, Experience: 3 years}"]
-    Trade["Trade\n{Type: Forex, Risk: Medium}"]
+    PortfolioManager["Portfolio Manager<br/>{Role: Senior, Risk: Low}"]
+    Trader["Trader<br/>{Role: Analyst, Experience: 3 years}"]
+    Trade["Trade<br/>{Type: Forex, Risk: Medium}"]
     Policy1["Policy: Risk Management"]
     Policy2["Policy: Trade Execution Rules"]
     
@@ -78,10 +78,10 @@ AGNs build a **living network**, dynamically updating relationships as data evol
 
 ```mermaid
 graph TD
-    Market["Market\n{Status: Bullish}"]
-    ForexPair["Forex Pair\n{Symbol: EUR/USD}"]
-    Indicator["Indicator\n{Type: MACD, Trend: Positive}"]
-    Trade["Trade Action\n{Buy}"]
+    Market["Market<br/>{Status: Bullish}"]
+    ForexPair["Forex Pair<br/>{Symbol: EUR/USD}"]
+    Indicator["Indicator<br/>{Type: MACD, Trend: Positive}"]
+    Trade["Trade Action<br/>{Buy}"]
     Policy["Policy: High-Volatility Priority"]
     
     Market -->|influences| ForexPair
@@ -102,10 +102,10 @@ AGNs manage patient records, treatments, diagnostics, and insurance policies, in
 
 ```mermaid
 graph TD
-    Patient["Patient\n{ID: 12345, Condition: Diabetes}"]
-    Treatment["Treatment\n{Type: Insulin Therapy, Dosage: 5mg}"]
-    Doctor["Doctor\n{Specialty: Endocrinologist}"]
-    Insurance["Insurance\n{Coverage: Partial}"]
+    Patient["Patient<br/>{ID: 12345, Condition: Diabetes}"]
+    Treatment["Treatment<br/>{Type: Insulin Therapy, Dosage: 5mg}"]
+    Doctor["Doctor<br/>{Specialty: Endocrinologist}"]
+    Insurance["Insurance<br/>{Coverage: Partial}"]
     Policy["Policy: Emergency Response"]
     
     Patient -->|assigned| Doctor
@@ -128,12 +128,12 @@ AGNs utilize **perfect numbers** (e.g., 6, 28) to achieve relational completenes
 ```mermaid
 graph TD
     subgraph Perfect_Number_28
-        PN[Perfect Number: 28]
-        D1[Divisor: 1]
-        D2[Divisor: 2]
-        D3[Divisor: 4]
-        D4[Divisor: 7]
-        D5[Divisor: 14]
+        PN["Perfect Number: 28"]
+        D1["Divisor: 1"]
+        D2["Divisor: 2"]
+        D3["Divisor: 4"]
+        D4["Divisor: 7"]
+        D5["Divisor: 14"]
     end
     PN --> D1
     PN --> D2
@@ -165,13 +165,13 @@ Cube4D uses binary sequences to encode data points' attributes, relationships, a
 
 ```mermaid
 graph TD
-    Start[Start Encoding] --> PatientID[Patient ID: 0001]
-    PatientID --> DataType[Data Type: 0010]
-    DataType --> Value[Value: 01101110]
-    Value --> Timestamp[Timestamp: 10101010]
-    Timestamp --> PolicyFlag[Policy Flag: 0001]
-    PolicyFlag --> ParityBit[Parity Bit: 1]
-    ParityBit --> End[Encoded Data Ready]
+    Start["Start Encoding"] --> PatientID["Patient ID: 0001"]
+    PatientID --> DataType["Data Type: 0010"]
+    DataType --> Value["Value: 01101110"]
+    Value --> Timestamp["Timestamp: 10101010"]
+    Timestamp --> PolicyFlag["Policy Flag: 0001"]
+    PolicyFlag --> ParityBit["Parity Bit: 1"]
+    ParityBit --> End["Encoded Data Ready"]
 ```
 
 #### **Error Checking and Redundancy**
@@ -191,11 +191,11 @@ Cube4D's contextual querying allows for an understanding of data relationships b
 
 ```mermaid
 flowchart TD
-    UserQuery[User Query] --> DataNodeSelection[Select Data Nodes\n(X-Axis)]
-    DataNodeSelection --> RelationshipMapping[Map Relationships\n(Y-Axis)]
-    RelationshipMapping --> PolicyApplication[Apply Policies\n(Z-Axis)]
-    PolicyApplication --> TemporalContext[Consider Temporal Context\n(Temporal Dimension)]
-    TemporalContext --> Response[Generate Contextual Response]
+    UserQuery["User Query"] --> DataNodeSelection["Select Data Nodes<br/>(X-Axis)"]
+    DataNodeSelection --> RelationshipMapping["Map Relationships<br/>(Y-Axis)"]
+    RelationshipMapping --> PolicyApplication["Apply Policies<br/>(Z-Axis)"]
+    PolicyApplication --> TemporalContext["Consider Temporal Context<br/>(Temporal Dimension)"]
+    TemporalContext --> Response["Generate Contextual Response"]
 ```
 
 ### **Application in AGI**
@@ -228,9 +228,9 @@ AGNs, AGDB, and RGNs work together to create a holistic ecosystem for AI:
 
 ```mermaid
 graph TD
-    A[Multi-Domain Data Sources] -->|ETL Process| B[AGDB - Active Graph Database]
-    B --> D[AGN - Active Graph Network]
-    D --> E[RGN - Relational Graph Network]
+    A["Multi-Domain Data Sources"] -->|ETL Process| B["AGDB - Active Graph Database"]
+    B --> D["AGN - Active Graph Network"]
+    D --> E["RGN - Relational Graph Network"]
 ```
 
 ---
@@ -243,20 +243,20 @@ To implement AGNs efficiently, leveraging Azure services ensures scalability, se
 
 ```mermaid
 graph TD
-    A[Azure Front Door] --> B[Azure API Management]
-    B --> C[AGN Web App]
-    B --> D[AGN API Services]
-    B --> E[Azure Blob Storage]
+    A["Azure Front Door"] --> B["Azure API Management"]
+    B --> C["AGN Web App"]
+    B --> D["AGN API Services"]
+    B --> E["Azure Blob Storage"]
 
     subgraph Azure Core
         C
         D
         E
-        F[AGDB - Azure Cosmos DB]
-        G[Azure Functions]
-        H[Azure Key Vault]
-        I[Azure Monitor]
-        J[Azure Virtual Network]
+        F["AGDB - Azure Cosmos DB"]
+        G["Azure Functions"]
+        H["Azure Key Vault"]
+        I["Azure Monitor"]
+        J["Azure Virtual Network"]
     end
 
     D --> F
@@ -266,15 +266,15 @@ graph TD
     C --> J
     D --> J
 
-    G --> K[RBAC and Security Policies]
-    H --> L[Secrets and Encryption Keys]
-    I --> M[Logging and Monitoring]
-    J --> N[Network Security & Firewall]
+    G --> K["RBAC and Security Policies"]
+    H --> L["Secrets and Encryption Keys"]
+    I --> M["Logging and Monitoring"]
+    J --> N["Network Security & Firewall"]
     
     subgraph AI/ML Integration
-        O[Azure Machine Learning Service] --> P[Model Deployment]
+        O["Azure Machine Learning Service"] --> P["Model Deployment"]
         P --> D
-        P --> Q[Predictive Analytics in AGNs]
+        P --> Q["Predictive Analytics in AGNs"]
     end
 ```
 
@@ -335,9 +335,9 @@ We invite researchers, data scientists, and industry experts to collaborate on a
 ```mermaid
 graph TD
     subgraph Perfect_Number_6
-        Node1["Divisor 1\n(Binary 001)"]
-        Node2["Divisor 2\n(Binary 010)"]
-        Node3["Divisor 3\n(Binary 011)"]
+        Node1["Divisor 1<br/>(Binary 001)"]
+        Node2["Divisor 2<br/>(Binary 010)"]
+        Node3["Divisor 3<br/>(Binary 011)"]
     end
     Node1 --> Node2
     Node2 --> Node3
@@ -350,11 +350,11 @@ graph TD
 
 ```mermaid
 flowchart TD
-    UserQuery[User Query] --> DataNodeSelection[Select Data Nodes\n(X-Axis)]
-    DataNodeSelection --> RelationshipMapping[Map Relationships\n(Y-Axis)]
-    RelationshipMapping --> PolicyApplication[Apply Policies\n(Z-Axis)]
-    PolicyApplication --> TemporalContext[Consider Temporal Context\n(Temporal Dimension)]
-    TemporalContext --> Response[Generate Contextual Response]
+    UserQuery["User Query"] --> DataNodeSelection["Select Data Nodes<br/>(X-Axis)"]
+    DataNodeSelection --> RelationshipMapping["Map Relationships<br/>(Y-Axis)"]
+    RelationshipMapping --> PolicyApplication["Apply Policies<br/>(Z-Axis)"]
+    PolicyApplication --> TemporalContext["Consider Temporal Context<br/>(Temporal Dimension)"]
+    TemporalContext --> Response["Generate Contextual Response"]
 ```
 
 ### **Binary Encoding Walkthrough**
@@ -363,13 +363,13 @@ flowchart TD
 
 ```mermaid
 graph TD
-    Start[Start Encoding] --> PatientID[Patient ID: 0001]
-    PatientID --> DataType[Data Type: 0010]
-    DataType --> Value[Value: 01101110]
-    Value --> Timestamp[Timestamp: 10101010]
-    Timestamp --> PolicyFlag[Policy Flag: 0001]
-    PolicyFlag --> ParityBit[Parity Bit: 1]
-    ParityBit --> End[Encoded Data Ready]
+    Start["Start Encoding"] --> PatientID["Patient ID: 0001"]
+    PatientID --> DataType["Data Type: 0010"]
+    DataType --> Value["Value: 01101110"]
+    Value --> Timestamp["Timestamp: 10101010"]
+    Timestamp --> PolicyFlag["Policy Flag: 0001"]
+    PolicyFlag --> ParityBit["Parity Bit: 1"]
+    ParityBit --> End["Encoded Data Ready"]
 ```
 
 ---
@@ -425,5 +425,3 @@ If you have any questions or need assistance, please open an issue on GitHub or 
 ---
 
 *This readme has been updated to reflect the latest developments in AGNs and Cube4D, incorporating enhanced diagrams and aligning with our ongoing work.*
-
----
