@@ -2,7 +2,8 @@
 **Revolutionizing Data Structuring, Adaptability, and Contextual Understanding**  
 
 **Author:** Callum Maystone  
-**Date:** [Date of Publication]  
+**Date:** 15/11/2024
+**Location:** Adelaide, Australia
 
 ---
 
