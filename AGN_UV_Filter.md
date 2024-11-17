@@ -1,7 +1,3 @@
-Here’s a descriptive file you can use for **AGN_UV_Filter.md**:
-
----
-
 # AGN UV Filter - Real-Time Light Processing with Active Graph Networks
 
 ### Overview
@@ -73,8 +69,4 @@ In one example, the UV filter highlights **uranium glass fluorescence** under UV
 ### About Active Graph Networks (AGN)
 **Active Graph Networks (AGN)** are a novel framework that models data as nodes and relationships, allowing dynamic and hierarchical reasoning in multi-dimensional contexts. This UV filter example showcases AGN's potential to analyze and structure real-time video data, providing a glimpse into its broader applications in fields like computer vision, AI, and interactive media.
 
-For more details, check out the full repository: [ActiveGraphNetworks](https://github.com/YourRepoName/ActiveGraphNetworks).
-
----
-
-Feel free to edit and adapt this as needed to fit your tone or the specifics of your repo!
+For more details, check out the full repository: [ActiveGraphNetworks](https://github.com/ConicuConsulting/ActiveGraphNetworks).
