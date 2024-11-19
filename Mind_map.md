@@ -2,73 +2,73 @@
 ```mermaid 
 mindmap
   root(Multi-Domain Knowledge Web)
-    "Foundational Concepts"
-      "Interconnectedness and Relationships"
-        "AGT: Life as Interconnected Decision Trees"
-        "Dynamic Relationships in Graphs"
-        "Cube4D: Multidimensional Data Structuring"
-        "Geodesic Thinking in Neural Systems"
-      "Structured Thinking and AI"
-        "Active Graph Networks"
-          "Dynamic ACLs for Graphs"
-          "Hierarchical Relationships"
-          "Structured Querying for AI Reasoning"
-        "Evolution of Graph Models"
-          "RGNNs to AGNNs"
-          "Queryable Relationships"
-          "Domain-Specific Data Insights"
-      "Philosophical Foundations"
-        "Meaning of Life Framework"
-        "Amplitude as Mass, Frequency as Focus"
-        "Expanding AI to AGI Through Structured Data"
-    "Key Projects"
-      "Healthcare (YouMatter)"
-        "PAS and EHR Integration"
-        "Operational Efficiency with Azure"
-        "Non-Profit Goals and Social Impact"
-        "Satellite Connectivity (SpeedSat)"
-      "Finance (EzMonies)"
-        "Time-Series Financial Modeling"
-        "Volatility and Correlation Analysis"
-        "Profitable Strategy Backtesting"
-        "Future: Sentiment and Indicator Integration"
-      "Legal Analysis (OpenEYE)"
-        "Using Graphs for Legal Text Analysis"
-        "IRC and Case Precedents"
-        "Dynamic Clause Relationships"
-        "Context-Aware Query Systems"
-      "Reasoning Tasks (ARC Challenges)"
-        "Pattern Recognition in Grids"
-        "Dynamic Querying for Reasoning Tasks"
-        "Relational Reasoning Across Domains"
-    "Breakthrough Innovations"
-      "Active Graph Theory"
-        "ACLs and Inheritance"
-        "Dynamic Relationship Expansion"
-        "Integration into Graph Query Systems"
-      "Cube4D"
-        "4D Data Optimization"
-        "Integration into 4D Linux Kernel"
-        "Applications in AI and Cybersecurity"
-      "Relational Graph Neural Networks"
-        "Time-Series and Financial Analysis"
-        "Legal Document Query Systems"
-        "Enhanced Reasoning Across Domains"
-      "4D Linux Kernel"
-        "Optimized for AGT and Cube4D"
-        "Real-Time Decision Making"
-    "Practical Applications"
-      "Enterprise AI"
-        "Slapp: Tailored AI Consulting"
-        "Customer-Centric Applied AI"
-        "Scalable Solutions for Enterprises"
-      "Real-Time Insights"
-        "Fraud Detection"
-        "Financial Analytics"
-        "Regulatory Compliance"
-      "Future Computing"
-        "4D Kernel for Complex Systems"
-        "Cross-Domain Reasoning Frameworks"
-      "Social Impact"
-        "YouMatter Non-Profit Goals"
-        "Rural and Under-Resourced Connectivity"```
+    Foundational_Concepts
+      Interconnectedness_and_Relationships
+        AGT_Life_as_Interconnected_Decision_Trees
+        Dynamic_Relationships_in_Graphs
+        Cube4D_Multidimensional_Data_Structuring
+        Geodesic_Thinking_in_Neural_Systems
+      Structured_Thinking_and_AI
+        Active_Graph_Networks
+          Dynamic_ACLs_for_Graphs
+          Hierarchical_Relationships
+          Structured_Querying_for_AI_Reasoning
+        Evolution_of_Graph_Models
+          RGNNs_to_AGNNs
+          Queryable_Relationships
+          Domain_Specific_Data_Insights
+      Philosophical_Foundations
+        Meaning_of_Life_Framework
+        Amplitude_as_Mass_Frequency_as_Focus
+        Expanding_AI_to_AGI_Through_Structured_Data
+    Key_Projects
+      Healthcare_YouMatter
+        PAS_and_EHR_Integration
+        Operational_Efficiency_with_Azure
+        Non_Profit_Goals_and_Social_Impact
+        Satellite_Connectivity_SpeedSat
+      Finance_EzMonies
+        Time_Series_Financial_Modeling
+        Volatility_and_Correlation_Analysis
+        Profitable_Strategy_Backtesting
+        Future_Sentiment_and_Indicator_Integration
+      Legal_Analysis_OpenEYE
+        Using_Graphs_for_Legal_Text_Analysis
+        IRC_and_Case_Precedents
+        Dynamic_Clause_Relationships
+        Context_Aware_Query_Systems
+      Reasoning_Tasks_ARC_Challenges
+        Pattern_Recognition_in_Grids
+        Dynamic_Querying_for_Reasoning_Tasks
+        Relational_Reasoning_Across_Domains
+    Breakthrough_Innovations
+      Active_Graph_Theory
+        ACLs_and_Inheritance
+        Dynamic_Relationship_Expansion
+        Integration_into_Graph_Query_Systems
+      Cube4D
+        Four_D_Data_Optimization
+        Integration_into_Four_D_Linux_Kernel
+        Applications_in_AI_and_Cybersecurity
+      Relational_Graph_Neural_Networks
+        Time_Series_and_Financial_Analysis
+        Legal_Document_Query_Systems
+        Enhanced_Reasoning_Across_Domains
+      Four_D_Linux_Kernel
+        Optimized_for_AGT_and_Cube4D
+        Real_Time_Decision_Making
+    Practical_Applications
+      Enterprise_AI
+        Slapp_Tailored_AI_Consulting
+        Customer_Centric_Applied_AI
+        Scalable_Solutions_for_Enterprises
+      Real_Time_Insights
+        Fraud_Detection
+        Financial_Analytics
+        Regulatory_Compliance
+      Future_Computing
+        Four_D_Kernel_for_Complex_Systems
+        Cross_Domain_Reasoning_Frameworks
+      Social_Impact
+        YouMatter_Non_Profit_Goals
+        Rural_and_Under_Resourced_Connectivity```
