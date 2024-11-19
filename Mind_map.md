@@ -1,15 +1,15 @@
 
 ```mermaid 
 mindmap
-  root((Multi-Domain Knowledge Web))
+  root(Multi-Domain Knowledge Web)
     "Broad Concepts and Abstract Ideas"
       "Interconnectedness and Relationships"
         "AGT: Life as Interconnected Decision Trees"
-        "Dynamic Relationships (DRE) in AGNs"
+        "Dynamic Relationships in AGNs"
         "Cube4D: Multidimensional Data Structuring"
         "Geodesic Thinking in Neural Systems and Graphs"
       "Structured Thinking and AI"
-        "Active Graph Networks (AGNs)"
+        "Active Graph Networks"
           "Dynamic ACLs for Graphs"
           "Hierarchical Relationships in AGNs"
           "Structured Querying for AI Reasoning"
@@ -17,7 +17,7 @@ mindmap
           "Queryable Relationships in Graphs"
           "Domain-Specific Data Insights"
       "Core Philosophical Frameworks"
-        "The Meaning of Life: Effectus = Quomodo(Initium, Quid, Cur)"
+        "The Meaning of Life: Effectus = Quomodo Initium, Quid, Cur"
         "Amplitude as Mass, Frequency as Focus"
         "Expanding AI to AGI Through Structured Data"
     "Projects and Experimentation"
@@ -25,7 +25,7 @@ mindmap
         "Healthcare Focus: PAS and EHR Integration"
         "Operational Efficiency and Scalability with Azure"
         "Non-Profit Goals and Community Impact"
-        "Use of Satellite Tech (SpeedSat) for Remote Areas"
+        "Use of Satellite Tech for Remote Areas"
       "EzMonies: Trading Bot"
         "Time-Series Graph Modeling of Financial Data"
         "Volatility and Correlation as Edge Attributes"
@@ -45,7 +45,7 @@ mindmap
         "Dynamic Querying for AI Reasoning Tasks"
         "Relational Reasoning Across Tasks"
     "Breakthroughs and Innovations"
-      "Active Graph Theory (AGT)"
+      "Active Graph Theory"
         "Development of ACLs and Inheritance"
         "Dynamic Expansion of Relationships"
         "Integration into AGNs for Query Control"
@@ -53,12 +53,12 @@ mindmap
         "Optimized for 4D Linux Kernel"
         "Integration of Multidimensional Data"
         "Applications in AI and Cybersecurity"
-      "Relational Graph Neural Networks (RGNNs)"
+      "Relational Graph Neural Networks"
         "Time-Series Analysis and Financial Modeling"
         "Legal Document Query Systems"
         "Enhanced Cross-Domain Reasoning"
       "4D Linux Kernel"
-        "Optimized for AGT and C4D"
+        "Optimized for AGT and Cube4D"
         "Focus on Real-Time Decision Making"
     "Practical Outcomes"
       "Enterprise AI Solutions"
@@ -74,5 +74,4 @@ mindmap
         "Cross-Domain Reasoning Frameworks"
       "Healthcare and Social Impact"
         "YouMatter Non-Profit Goals"
-        "Scalable Solutions for Under-Resourced Areas"
-```
+        "Scalable Solutions for Under-Resourced Areas"```
