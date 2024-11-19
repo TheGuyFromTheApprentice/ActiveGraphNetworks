@@ -1,5 +1,5 @@
 
-```mermaid
+```mermaid 
 mindmap
   root((Multi-Domain Knowledge Web))
     "Broad Concepts and Abstract Ideas"
