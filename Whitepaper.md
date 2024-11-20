@@ -116,10 +116,10 @@ Cube4D uses perfect numbers to create complete and balanced data structures, ens
 ```mermaid
 graph TD
     subgraph Encoding_Process [Binary Encoding Process]
-        ID[Patient ID: 0001] --> DataType[Data Type: Heart Rate (0010)]
-        DataType --> Value[Value: 110 bpm (01101110)]
-        Value --> Timestamp[Timestamp: 10:42 AM (10101010)]
-        Timestamp --> Policy[Policy: Emergency Active (0001)]
+        ID[Patient ID: 0001] --> DataType[Data Type: Heart Rate ((0010))]
+        DataType --> Value[Value: 110 bpm ((01101110))]
+        Value --> Timestamp[Timestamp: 10:42 AM ((10101010))]
+        Timestamp --> Policy[Policy: Emergency Active ((0001))]
         Policy --> Parity[Parity Bit: 1]
     end
     Encoding_Process --> EncodedData[Combined Binary: 0001 0010 01101110 10101010 0001 1]
@@ -151,9 +151,9 @@ graph TD
 ```mermaid
 flowchart TD
     Query[User Query] --> XAxis[Identify Data Nodes (What)]
-    XAxis --> YAxis[Map Relationships (Why)]
-    YAxis --> ZAxis[Apply Policies (How)]
-    ZAxis --> TAxis[Add Temporal Context (When)]
+    XAxis --> YAxis[Map Relationships ((Why))]
+    YAxis --> ZAxis[Apply Policies ((How))]
+    ZAxis --> TAxis[Add Temporal Context ((When))]
     TAxis --> Response[Provide Contextual Response]
 ```
 
