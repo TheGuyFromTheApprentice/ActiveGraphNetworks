@@ -20,10 +20,10 @@ This iteration builds upon prior foundations to model transformation, decision-m
 #### **Mermaid Diagram: Structure & Decision**
 ```mermaid
 graph TD
-  X[Stable Input (X)] --> Y[Variable Input (Y)]
-  Z[Contextual Input (Z)] --> Y
-  T[Temporal Factor (T)] --> Y
-  Y --> n[Dynamic Output (n)]
+  X[Stable Input 'X'] --> Y[Variable Input 'Y']
+  Z[Contextual Input 'Z'] --> Y
+  T[Temporal Factor 'T'] --> Y
+  Y --> n[Dynamic Output 'n']
 ```
 
 ---
@@ -70,7 +70,7 @@ graph LR
   end
   Inputs --> D[Decision Process]
   D --> Loop[Iterative Loop]
-  Loop --> Output[Dynamic Node (n)]
+  Loop --> n[Dynamic Node 'n']
 ```
 
 ---
