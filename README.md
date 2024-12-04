@@ -140,7 +140,7 @@ graph TD
     PN --> D3
     PN --> D4
     PN --> D5
-```
+``` 
 
 ### **Bit Encoding and Data Retrieval**
 
