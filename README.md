@@ -5,7 +5,7 @@
 ![React](https://img.shields.io/badge/frontend-react-lightblue)
 ![License: CC BY-NC-SA](https://img.shields.io/badge/license-CC--BY--NC--SA-yellow)
 
-> 🔁 **“X, Y, Z define identity across T.”**  
+> 🔁 **“X (structure), Y (purpose), Z (meaning) define n (identity) across T (time).”**  
 > The foundation of AGNs: what something is, why it matters, and how it behaves — held in memory through time.
 
 ---
