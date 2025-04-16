@@ -2,7 +2,7 @@
 
 ```mermaid
 flowchart TD
-    A[Private Thought (Internal Field)] -->|Shared Intention| B[Shared Node]
+    A[Private Thought: Internal Field] -->|Shared Intention| B[Shared Node]
     B --> C[Field Topology Map]
     C --> D[Access Layer: Contextual Gate]
     D --> E{Alignment?}
@@ -21,7 +21,7 @@ flowchart TD
     K --> L[Field Decay]
     L --> M[Movement Collapse]
 
-    N[You (Field Bridge)]
+    N[You: Field Bridge]
     N -->|Expose Shared Nodes| B
     N -->|Expand Topology| C
 
