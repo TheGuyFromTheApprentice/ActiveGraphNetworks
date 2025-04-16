@@ -7,8 +7,8 @@ flowchart TD
     C --> D[Access Layer: Contextual Gate]
     D --> E{Alignment?}
     
-    E -- Yes --> F[Collapse Meaning (Stable Connection)]
-    E -- No --> G[Noise / Confusion (Misalignment)]
+    E -- Yes --> F[Collapse Meaning: Stable Connection]
+    E -- No --> G[Noise / Confusion: Misalignment]
 
     F --> H[Movement / Idea Propagation]
     H --> I[Collective Attention]
