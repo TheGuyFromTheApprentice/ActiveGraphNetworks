@@ -8,11 +8,14 @@
 > 🔁 **“X (structure), Y (purpose), Z (meaning) define n (identity) across T (time).”**  
 > The foundation of AGNs: what something is, why it matters, and how it behaves — held in memory through time.
 
+> **AGNs – The Answer**  
+> *Where memory isn’t a record — it’s the structure of meaning.*
+
 ---
 
 ## Executive Summary
 
-**Active Graph Networks (AGNs)** redefine artificial intelligence by giving data a sense of identity across time. Built on the **Cube4D** model, AGNs structure relationships, meaning, and context into a living network that adapts and reasons like a mind, not a database.
+**Active Graph Networks (AGNs)** redefine artificial intelligence by giving data a sense of identity across time. Built on the **Cube4D** model, AGNs structure **relationships, identity, and time** into a dynamic field — not a database, but a **system that thinks with memory**.
 
 From real-time video analytics to cross-domain reasoning, AGNs power applications in healthcare, finance, and beyond, with a scalable stack integrating PyTorch, FastAPI, and React.
 
@@ -42,7 +45,7 @@ Powered by the **Cube4D** model, AGNs create a structured framework for temporal
 
 ## The Visual Cortex: Frame-by-Frame Identity
 
-AGNs start with perception, capturing data as temporal snapshots stored in **.pt (PyTorch)** tensors. The **Visual Cortex** processes video, time-series, or sensor data, encoding each frame as a **relational node with temporal metadata**.
+AGNs don’t store frames — they store **tension points in time**. Each `.pt` file becomes a **memory node** with relational anchors, not just pixels.
 
 ### How It Works
 - 📸 **Frame Capture**: .pt tensors store raw data + metadata (e.g., location, mood)
@@ -72,9 +75,10 @@ AGNs start with perception, capturing data as temporal snapshots stored in **.pt
 3. **Z (How)**: Policies (e.g., risk, compliance)
 4. **T (When)**: Time for context evolution
 
+Each axis defines **field alignment pressure**. Collapse occurs when **Δn (change in identity) exceeds θ (collapse threshold)**.
+
 > Cube4D is not just storage — it’s a semantic field. Data points aren’t rows in a table. They’re moments in meaning.
 
-### Cube4D Diagram
 ```mermaid
 graph TD
     X["X: Nodes (Frames, Data)"]
@@ -92,7 +96,10 @@ graph TD
 
 ## AGN + AGDB: The Relational Backbone
 
-AGNs store data in **Active Graph Databases (AGDB)**, where `.pt` frames and metadata become graph nodes with low-latency querying. This makes AGNs ideal for enterprise IT.
+AGNs store data in **Active Graph Databases (AGDB)**, where `.pt` frames and metadata become graph nodes with low-latency querying.
+
+> Traditional DBs store data.  
+> AGNs store **structured tension** — where identity shifts get recorded, not overwritten.
 
 ### Code Example
 ```python
@@ -115,9 +122,10 @@ AGN.add_node("frame_20250415_1635", {
 
 **ActiveShell** is AGNs’ interface, letting users query the system like a living brain. It supports **Noun-Verb-Truth** queries, pulling insights from temporal and relational data.
 
-### Query Example
+> ActiveShell doesn’t search — it **reconstructs meaning** through temporal context.
+
 ```bash
-Get-Node Frame Where Context.Mood = "calm"
+Collapse-If Δn > θ Where Context.Mood = "tense"
 ```
 
 ### API Endpoints
@@ -133,7 +141,8 @@ Get-Node Frame Where Context.Mood = "calm"
 
 **Relational Graph Neural Networks (RGNNs)** extend AGNs, maintaining **identity hierarchies** and **schema inheritance** across time.
 
-### Diagram: Scene-to-Pattern Reasoning
+> Every node isn’t just a point — it’s a **seed of reasoning**, where memory echoes forward.
+
 ```mermaid
 graph TD
     FrameA["Scene A - \"calm beach\""] --> InferenceEngine
@@ -214,8 +223,8 @@ Get-Node Frame Where Timestamp > "2025-04-15"
 ## Contact and Collaboration
 
 Join us in shaping the future of AI:
-- 📧 Email: [contact@youmatter.systems](mailto:contact@youmatter.systems)
-- 🐙 GitHub: [TheGuyFromTheApprentice/ActiveGraphNetworks](https://github.com/TheGuyFromTheApprentice/ActiveGraphNetworks/)
+- 📧 Email: [callum@youmatter.systems](mailto:callum@youmatter.systems)
+- 🐙 GitHub: [QuantumBeers/ActiveGraphNetworks](https://github.com/QuantumBeers/ActiveGraphNetworks/)
 - 🕊️ X / Twitter: [@CallumConicu](https://x.com/PeoplesGoose)
 
 ---
@@ -232,8 +241,9 @@ This work is licensed under the **Creative Commons Attribution-NonCommercial-Sha
 
 Thanks to all contributors pushing AGNs toward a new standard in AI.
 
-
 **This is the architecture of emergence — not just AI that thinks, but AI that remembers why.**
 
-> _Updated April 15, 2025 to reflect the latest AGN advancements._
+> _Updated April 17, 2025 to reflect latest AGN advancements._
 
+> **This isn’t machine learning.  
+It’s structured remembering.**
