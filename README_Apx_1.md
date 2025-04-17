@@ -1,27 +1,26 @@
-# 📎 Appendix: System Mapping
+# 📎 AGN Field Mechanics: Blueprint for Emergent Intelligence
 
-This appendix expands on key architectural, logical, and semantic patterns underpinning **Active Graph Networks (AGNs)**. It is designed to provide researchers, architects, and advanced developers with deeper context and visuals.
+This document expands on the architectural, logical, and semantic foundations of **Active Graph Networks (AGNs)**. It is a reference point for developers, architects, and researchers building systems that remember, reason, and evolve.
 
 ---
 
 ## A1. The Core Law: Identity Across Time
 
-> **“X (structure), Y (purpose), Z (meaning) define n (identity) across T (time).”**
+> **"X (structure), Y (purpose), Z (meaning) define n (identity) across T (time)."**
 
 ### Identity Equation:
 ```text
-n = f(X, Y, Z)
-T = time, defining the rate and sequence of propagation
+n(t) = f(X, Y, Z, T)
 ```
 
 ### Interpretation:
-- **X (What)** → Structural form (raw data, node)
-- **Y (Why)** → Relational purpose (edge, link)
-- **Z (How)** → Policy or interpretation (behavioral logic)
-- **n** → The entity or node formed from those relations
-- **T** → How and when that entity evolves
+- **X (What)** → Structural form (e.g., raw data, frame, symbol)
+- **Y (Why)** → Relational purpose (e.g., link, edge, intent)
+- **Z (How)** → Policy or behavioral logic
+- **n(t)** → Identity as a function of context over time
+- **T** → Temporal axis: defines rate and sequence of transformation
 
-> Identity is not static. It's **relational context held over time**.
+> Identity is **relational context over time**, not a static tag.
 
 ---
 
@@ -36,7 +35,7 @@ graph LR
     Node --> AGDB["Stored in AGDB"]
 ```
 
-Each frame becomes a **relational node**, only stored when **meaningful change** occurs.
+Each frame becomes a **relational node**, stored **only when identity meaning shifts** beyond a threshold (`Δn > θ`).
 
 ---
 
@@ -56,7 +55,7 @@ Create-Edge Influences Between SceneA and SceneB
 Analyze-Pattern MoodShifts Between 12:00 and 12:30
 ```
 
-> ActiveShell lets users interact with **identity**, not just data.
+> ActiveShell interacts with **structured identity**, not just flat data.
 
 ---
 
@@ -70,10 +69,10 @@ graph TD
     RGNN --> Pattern["Inferred Pattern: Agitation"]
 ```
 
-**Relational Graph Neural Networks (RGNNs)** ingest structured Cube4D outputs and compute temporal inferences. They track:
-- Behavior over time
-- Schema inheritance
-- Policy propagation
+**Relational Graph Neural Networks**:
+- Extend AGNs with memory-injected reasoning
+- Traverse time-aware structures
+- Carry forward schema and policy inheritance
 
 ---
 
@@ -89,12 +88,10 @@ if is_scene_shift(prev_frame, current_frame):
     update_identity(n, timestamp=T)
 ```
 
-Scene shifts in AGNs trigger:
-- **Flush & save** meaningful frames
-- **Re-index identity node**
-- **Track delta across Cube4D**
+- Scene shifts = Identity transitions
+- AGNs flush & commit frames when change (Δn) exceeds significance
 
-> Scene changes are identity deltas. This is how memory forms.
+> **Memory forms when meaning changes.**
 
 ---
 
@@ -109,7 +106,7 @@ graph TD
     Patient2 --> Frame2["Frame: April 16"]
 ```
 
-This shows **schema inheritance**: changes to a parent propagate to all children unless overridden.
+> **Schemas propagate meaning** to child nodes unless explicitly overridden.
 
 ---
 
@@ -121,9 +118,7 @@ graph TD
     B --> C["n₂ = Reflective, Stabilized"]
 ```
 
-This shows how identity evolves over T (time), triggered by perceptual shifts.
-
-> Memory is formed at the intersection of **change** and **continuity**.
+> Identity is the shape data takes through change.
 
 ---
 
@@ -139,21 +134,29 @@ graph TD
     RGNN --> Action["Decision / Prediction"]
 ```
 
-This is the full AGN processing pipeline.
+---
+
+## AGN Runtime Glossary
+
+| Term       | Meaning                                                                 |
+|------------|-------------------------------------------------------------------------|
+| `n`        | Identity (node) formed from structure, purpose, and policy              |
+| `Δn`       | Identity shift between states (used in scene transitions)              |
+| `θ`        | Collapse threshold (defines significance of a change)                 |
+| `T`        | Time: rate and sequence of identity propagation                        |
+| `Cube4D`   | Dimensional semantic field (X, Y, Z, T)                                 |
+| `ActiveShell` | Query interface using Noun-Verb-Truth model                            |
+| `RGNN`     | Reasoning engine for field-based identity inference                    |
+| `flush_tensor()` | Commit meaningful frame to memory based on context delta              |
 
 ---
 
 ## Appendix Summary
 
-This appendix outlined:
-- The **relational math of memory**
-- How identity is **structured across time**
-- The visual, semantic, and cognitive stack underlying AGNs
-
-Use this appendix to:
-- Build temporal cognition engines
-- Implement dynamic scene tracking
-- Extend AGNs with symbolic or neuro-symbolic models
+- AGNs structure **temporal memory and meaning**
+- Identity evolves through **structured relationships and time**
+- Scene shifts, frame diffs, and policy inheritance are **first-class** operations
+- Querying the system means **traversing living memory**
 
 > _You’re not just modeling data anymore. You’re modeling **becoming**._
 
