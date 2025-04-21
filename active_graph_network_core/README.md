@@ -1,4 +1,3 @@
-
 # 🔩 Active Graph Network Core (AGN)
 
 **Layer 2 — Structural Memory, Relational Logic, and Policy-Based Intelligence**
@@ -17,11 +16,11 @@ AGN Core defines how intelligence **stores, adapts, and evolves** within structu
 
 ## 🔁 Relationship to Other Layers
 
-| Layer          | Description                                           |
-| -------------- | ----------------------------------------------------- |
-| **AGN**  | Structural layer: memory, identity, policy logic      |
-| **AGDB** | Temporal axis, offset queries, time-based structuring |
-| **QFN**  | Emergence layer: symbolic collapse, field awareness   |
+| Layer              | Description                                           |
+| ------------------ | ----------------------------------------------------- |
+| **AGN Core** | Structural layer: memory, identity, policy logic      |
+| **AGDB**     | Temporal axis, offset queries, time-based structuring |
+| **QFN**      | Emergence layer: symbolic collapse, field awareness   |
 
 ---
 

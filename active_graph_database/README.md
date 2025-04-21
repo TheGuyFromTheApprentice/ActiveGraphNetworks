@@ -1,5 +1,3 @@
-
-
 # AGDB Time Series Graphs and Query Structure
 
 Active Graph Databases (AGDBs) are an innovative framework designed for efficiently managing and querying time-series data. By leveraging **Active Graph Theory (AGT)** and **Active Graph Networks (AGN)**, AGDBs enable the creation of structured and synthetic relationships that can scale across various domains while maintaining efficiency in both small and large datasets.
@@ -206,7 +204,6 @@ This structure organizes AGDB data, relationships, and policies into a flexible 
    ```plaintext
    get-node-type ts-path {domain}/2024/11/04/10/45
    ```
-
 2. **Use Checkpoint for Efficiency**:
 
    ```plaintext
@@ -230,23 +227,24 @@ This structure organizes AGDB data, relationships, and policies into a flexible 
 ### Core Commands and Syntax Structure
 
 1. **Graph Creation and Initialization**
-   - `create-graph -name "financial_time_series" -type "AGDB"`
 
+   - `create-graph -name "financial_time_series" -type "AGDB"`
 2. **Node and Relationship Management**
+
    - `create-node -id "node_001" -type "TimeSeriesNode" -attributes {...}`
    - `create-relationship -from "node_001" -to "node_002" -type "next"`
-
 3. **Setting Edges, Attributes, and Domains**
+
    - `set-edge -from "node_001" -to "node_002" -weight 0.8`
    - `set-attribute -node "node_001" -attributes {...}`
    - `set-domain -graph "financial_time_series" -name "Trading"`
-
 4. **Retrieving Nodes, Relationships, and Domains**
+
    - `get-node.attribute -name "node_001"`
    - `get-relationship -node "node_001"`
    - `get-domain -node "node_001"`
-
 5. **AGN/AGDB Specific Commands**
+
    - `get-AGN -policy "trading_inference"`
    - `set-AGN -policy "trading_inference" -rules {...}`
 
@@ -265,7 +263,6 @@ To optimize queries, AGDB uses a hierarchical time-based navigation structure wi
        "end": "2024-10-14 08:30:00"
    }
    ```
-
 2. **Relationship-Based Query for Correlation**:
 
    ```json
@@ -280,4 +277,4 @@ To optimize queries, AGDB uses a hierarchical time-based navigation structure wi
 
 ### Conclusion
 
-This README provides a high-level overview of AGDB architecture, query structure, and example usage. By integrating **AGT** and **AGN**, AGDB offers a powerful, scalable framework for time-series and complex data management, making it ideal for various fields, including finance and healthcare. The unified query structure allows users to access and manipulate data efficiently, making AGDB a versatile and user-friendly database solution. 
+This README provides a high-level overview of AGDB architecture, query structure, and example usage. By integrating **AGT** and **AGN**, AGDB offers a powerful, scalable framework for time-series and complex data management, making it ideal for various fields, including finance and healthcare. The unified query structure allows users to access and manipulate data efficiently, making AGDB a versatile and user-friendly database solution.

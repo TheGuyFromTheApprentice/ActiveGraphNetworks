@@ -1,28 +1,75 @@
-# Contributor License Agreement (CLA)
 
-**Effective Date:** 11/07/2024
-**Owner:** Callum Maystone ("Licensor")  
-**Repository:** ActiveGraphNetworks
+# Contributing to Active Graph Networks (AGN)
 
-## Purpose
-The purpose of this CLA is to outline the terms under which contributors may submit code, documentation, or other materials to this repository. By submitting a contribution, you agree to the terms set forth in this CLA.
+First off, **thank you** for taking the time to contribute!  Open collaboration is how AGN grows into the reference platform for Relational Intelligence.
 
-## 1. Grant of License
-- You agree to assign and transfer to the Licensor all rights, title, and interest in your contributions. This includes, without limitation, the rights to reproduce, modify, distribute, perform, and display the contributions, and to sublicense these rights to others.
-- You retain the right to use and distribute your contributions for non-commercial purposes, but you may not license or assign the contributions to others in a way that conflicts with this CLA.
+---
 
-## 2. Warranties
-You represent and warrant that:
-- Your contribution is your original work and does not infringe on the rights of any third party.
-- You have the legal right and authority to grant the rights outlined in this CLA.
-- Your contribution is not subject to any restrictions, including patents, that would prevent the Licensor from using it as described in this CLA.
+## 🗺️ How to Contribute
 
-## 3. Attribution
-The Licensor may, at their sole discretion, provide attribution to contributors in the repository or related documentation. Attribution does not imply any rights or ownership of the contributions beyond what is outlined in this CLA.
+1. **Fork** the repo & create your branch
+   ```bash
+   git checkout -b feat/my-awesome-feature
+   ```
+2. **Write code / docs** following the guidelines below.
+3. **Sign‑off** each commit ( **DCO** , see below).
+4. **Run tests & linters** (`make test`).
+5. **Open a Pull Request** targeting `main` and fill in the PR template.
+6. One of the maintainers will review, discuss, and merge once ready.
 
-## 4. License Revocation and Enforcement
-- The Licensor reserves the right to revoke any rights granted under this CLA if it is determined that you have violated the terms of this agreement or the Proprietary License Agreement.
-- Any unauthorized use, reproduction, or distribution of the repository content or your contributions will be subject to legal action, and you agree that the Licensor has the right to seek damages and enforce their intellectual property rights in court.
+---
 
-## 5. Governing Law
-This CLA will be governed and interpreted under the laws of Australia. Any disputes arising under this agreement will be subject to the exclusive jurisdiction of the courts of Australia.
+## 📐 Coding Standards
+
+| Language | Style                                               | Tools                                   |
+| -------- | --------------------------------------------------- | --------------------------------------- |
+| Python   | [PEP 8](https://peps.python.org/pep-0008/)+ type hints | `black`,`isort`,`ruff`,`pytest` |
+| Markdown | Simple, ≤ 80 char lines                            | `markdownlint`                        |
+| Mermaid  | Keep diagrams in separate `.mmd`files when large  | –                                      |
+
+*Please add/ update unit tests for any code change that alters behaviour.*
+
+---
+
+## 📝 Commit Sign‑off (DCO)
+
+AGN uses the  **Developer Certificate of Origin v1.1** .  All commits must be signed:
+
+```
+git commit -s -m "feat: add collapsible tensor grid"
+```
+
+The `‑s` flag adds this line to your commit message:
+
+> Signed‑off‑by: Your Name [email@example.com](mailto:email@example.com)
+
+This certifies that you have the right to submit the work under the project’s MIT license.
+
+---
+
+## 📜 License of Contributions
+
+* All contributions are  **copyright © you** , the author.
+* By submitting a PR you **license your contribution under the MIT License** (same as the rest of AGN)  **without additional terms** .
+
+If you’re contributing code on behalf of your employer, confirm you have permission to do so.
+
+---
+
+## 🤝 Code of Conduct
+
+We follow the [Contributor Covenant v2.1](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) — be respectful, constructive, and inclusive.
+
+---
+
+## 🔒 Security Policy
+
+Please **do not** open public issues for security bugs.  Send a detailed report to **[security@youmatter.systems](mailto:security@youmatter.systems)** and we’ll coordinate a fix & release.
+
+---
+
+## 💡 Need Help?
+
+Open a **Discussion** or reach out on X/Twitter:  **[@PeoplesGoose](https://x.com/PeoplesGoose)** .
+
+Happy hacking!  Collapse wisely. 🌀
