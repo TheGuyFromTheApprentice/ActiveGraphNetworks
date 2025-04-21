@@ -17,9 +17,9 @@ This repo holds a full‑stack, multi‑dimensional intelligence framework built
 
 | Layer              | Folder                                                                         | Purpose                                                        |
 | ------------------ | ------------------------------------------------------------------------------ | -------------------------------------------------------------- |
-| **AGN Core** | [`active_graph_network_core/`](https://chatgpt.com/c/active_graph_network_core) | Structural memory, identity logic, relational encoding         |
-| **AGDB**     | [`active_graph_database/`](https://chatgpt.com/c/active_graph_database)         | Time‑aware structuring, offset querying, checkpoint traversal |
-| **QFN**      | [`quantum_field_networks/`](https://chatgpt.com/c/quantum_field_networks)       | Emergent cognition, symbolic collapse, recursive inference     |
+| **AGN Core** | [`active_graph_network_core/`]([https://github.com/QuantumBeers/ActiveGraphNetworks/active_graph_network_core) | Structural memory, identity logic, relational encoding         |
+| **AGDB**     | [`active_graph_database/`](https://github.com/QuantumBeers/ActiveGraphNetworks/active_graph_database)         | Time‑aware structuring, offset querying, checkpoint traversal |
+| **QFN**      | [`quantum_field_networks/`](https://github.com/QuantumBeers/ActiveGraphNetworks/quantum_field_networks)       | Emergent cognition, symbolic collapse, recursive inference     |
 
 Together, they form a unified cognitive system powered by  **Cube4D** ,  **Dynamic Relationship Expansion (DRE)** , and  **ActiveShell** .
 
@@ -39,7 +39,7 @@ Together, they form a unified cognitive system powered by  **Cube4D** ,  **Dynam
 
 ## 🧠 Relational Intelligence (RI): The Philosophy Behind It
 
-> See [`Universal Relational Intelligence.md`](https://chatgpt.com/c/Universal%20Relational%20Intelligence%20(RI).md)
+> See [`Universal Relational Intelligence.md`](https://github.com/QuantumBeers/ActiveGraphNetworks/Universal%20Relational%20Intelligence%20(RI).md)
 
 * **Context‑Aware**  Everything exists in relation to something else.
 * **Time‑Aware**     Identity isn’t static — it propagates across time (T).
