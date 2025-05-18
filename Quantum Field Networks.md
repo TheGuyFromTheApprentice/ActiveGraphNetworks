@@ -49,6 +49,34 @@ flowchart TD
     style N fill:#fff,color:#000,stroke:#0f0,stroke-width:2px
 ```
 
+```mermaid
+flowchart TD
+    A[Disruptive Agent:<br/>Coercive Influence] --> B[Field Breach:<br/>Manipulative Node Injection]
+    B --> C{Context Gate Exploitation}
+    C -->|Bypassed| D[Field Divergence<br/>Detection]
+    C -->|Fails| Z[Noise / Confusion:<br/>Misalignment]
+    D --> E[Propagation of<br/>Misdirection]
+    E --> F[Collective Breakdown<br/>or False Alignment]
+    F --> G[Systemic Breakdown]
+    G --> H[Relational Exploitation]
+    F --> Y[Field Decay]
+
+    %% Styling
+    classDef green fill:#6AA84F,stroke:#333,stroke-width:1px;
+    classDef grey fill:#999,stroke:#333,stroke-width:1px;
+    classDef red fill:#B03A2E,stroke:#333,stroke-width:1px;
+    classDef orange fill:#E67E22,stroke:#333,stroke-width:1px;
+    classDef black fill:#1C1C1C,stroke:#fff,stroke-width:1px,color:#fff;
+
+    class A green;
+    class B,C grey;
+    class D orange;
+    class E orange;
+    class F,G,Y red;
+    class H black;
+    class Z red;
+```
+
 ---
 
 ## 🧩 Core Principles
