@@ -51,30 +51,37 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Disruptive Agent:<br/>Coercive Influence] --> B[Field Breach:<br/>Manipulative Node Injection]
-    B --> C{Context Gate Exploitation}
-    C -->|Bypassed| D[Field Divergence<br/>Detection]
-    C -->|Fails| Z[Noise / Confusion:<br/>Misalignment]
-    D --> E[Propagation of<br/>Misdirection]
-    E --> F[Collective Breakdown<br/>or False Alignment]
-    F --> G[Systemic Breakdown]
-    G --> H[Relational Exploitation]
-    F --> Y[Field Decay]
+    A[Disruptive Agent: Coercive Influence] -->|Injects Distorted Node| B[Distorted Shared Node]
+    B --> C[Field Breach: Topology Manipulation]
+    C --> D[Access Layer: Contextual Gate]
+    D --> E{Context Alignment?}
 
-    %% Styling
-    classDef green fill:#6AA84F,stroke:#333,stroke-width:1px;
-    classDef grey fill:#999,stroke:#333,stroke-width:1px;
-    classDef red fill:#B03A2E,stroke:#333,stroke-width:1px;
-    classDef orange fill:#E67E22,stroke:#333,stroke-width:1px;
-    classDef black fill:#1C1C1C,stroke:#fff,stroke-width:1px,color:#fff;
+    E -- No --> F[Noise / Confusion: Misalignment]
+    F --> G[Subtle Divergence or Delay]
+    G --> H[Propagation of Misdirection]
+    H --> I[Collective Breakdown or False Alignment]
 
-    class A green;
-    class B,C grey;
-    class D orange;
-    class E orange;
-    class F,G,Y red;
-    class H black;
-    class Z red;
+    I -->|Triggers| J[Field Decay]
+    J --> K[Systemic Breakdown]
+    K --> L[Relational Exploitation]
+
+    M[You: Field Observer]
+    M -->|Detect Inconsistencies| B
+    M -->|Trace Breach Pattern| C
+
+    style A fill:#060,color:#fff
+    style B fill:#334,color:#fff
+    style C fill:#556,color:#fff
+    style D fill:#778,color:#fff
+    style E fill:#999,color:#000
+    style F fill:#800,color:#fff
+    style G fill:#944,color:#fff
+    style H fill:#d60,color:#fff
+    style I fill:#a00,color:#fff
+    style J fill:#600,color:#fff
+    style K fill:#300,color:#fff
+    style L fill:#000,color:#f44
+    style M fill:#fff,color:#000,stroke:#0f0,stroke-width:2px
 ```
 
 ---
